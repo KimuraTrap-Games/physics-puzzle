@@ -13,7 +13,10 @@
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltForward.uasset",
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltRight.uasset",
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset",
-				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/BP_PlatformController.uasset"
+				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/BP_PlatformController.uasset",
+				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset",
+				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Splash/EdSplash.uasset",
+				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_Platform.uasset"
 			]
 		}
 	]
