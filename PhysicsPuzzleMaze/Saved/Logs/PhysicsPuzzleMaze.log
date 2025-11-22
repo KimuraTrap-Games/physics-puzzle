@@ -1890,3 +1890,254 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.22-17.33.22:967][787]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.22-17.33.22:967][787]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.22-17.33.22:967][787]AssetCheck: /Game/BuildLevel Validating asset
+[2025.11.22-17.35.34:391][485]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1718.797119
+[2025.11.22-17.35.35:390][488]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-17.35.35:390][488]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1719.463623, Update Interval: 318.836639
+[2025.11.22-17.36.22:993][440]Cmd: DELETE
+[2025.11.22-17.36.22:993][440]Cmd: ACTOR DELETE
+[2025.11.22-17.36.22:994][440]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.22-17.36.23:012][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.11.22-17.36.23:015][440]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2025.11.22-17.36.25:250][676]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Ball.Ball
+[2025.11.22-17.36.25:250][676]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Ball.Ball
+[2025.11.22-17.36.25:251][676]LogActorFactory: Actor Factory spawned StaticMesh /Game/Ball.Ball as actor: StaticMeshActor /Game/BuildLevel.BuildLevel:PersistentLevel.StaticMeshActor_6
+[2025.11.22-17.36.26:842][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.22-17.36.26:845][861]LogEditorActor: Deleted 0 Actors (0.016 secs)
+[2025.11.22-17.36.26:850][861]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Ball.Ball
+[2025.11.22-17.36.26:850][861]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Ball.Ball
+[2025.11.22-17.36.26:851][861]LogActorFactory: Actor Factory spawned StaticMesh /Game/Ball.Ball as actor: StaticMeshActor /Game/BuildLevel.BuildLevel:PersistentLevel.StaticMeshActor_7
+[2025.11.22-17.36.47:877][526]LogStreaming: Display: FlushAsyncLoading(478): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: ================================================
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Total job queries 2,770, among them cache hits 674 (24.33%), DDC hits 1,869 (67.47%), Duplicates 95 (3.43%)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Tracking 2,001 distinct input hashes that result in 1,279 distinct outputs (63.92%)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: RAM used: 12.69 MiB of 3.20 GiB budget. Usage: 0.39%
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Shaders Compiled: 132
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Jobs assigned 132, completed 132 (100%)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Average time worker was idle: 193.81 s
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.17 s
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Job execution time: average 0.86 s, max 7.80 s
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Job life time (pending + execution): average 0.92 s, max 7.82
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Shader code size: total 1.295 MiB, numShaders 150, average 8.842 KiB, min 1.727 KiB, max 20.219 KiB
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 34.13 s
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Jobs were issued in 123 batches (only local compilation was used), average 1.07 jobs/batch
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Average processing rate: 3.87 jobs/sec
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Total thread time: 74.346 s
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Total thread preprocess time: 31.363 s
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Percentage time preprocessing: 42.18%
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Effective parallelization: 2.18 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.136127
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.85 sec, max 1.85 sec, min 1.85 sec)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 1.48 sec, max 1.48 sec, min 1.48 sec)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   18 times, average 1.10 sec, max 7.75 sec, min 0.54 sec)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    3 times, average 1.01 sec, max 1.18 sec, min 0.90 sec)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   11 times, average 0.85 sec, max 1.05 sec, min 0.73 sec)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 26.60% of total time (compiled   18 times, average 1.10 sec, max 7.75 sec, min 0.54 sec)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.99% of total time (compiled   39 times, average 0.38 sec, max 1.64 sec, min 0.29 sec)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 12.59% of total time (compiled   11 times, average 0.85 sec, max 1.05 sec, min 0.73 sec)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.60% of total time (compiled   23 times, average 0.25 sec, max 0.67 sec, min 0.13 sec)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display:                                                  FVelocityPS - 7.39% of total time (compiled   11 times, average 0.50 sec, max 0.64 sec, min 0.43 sec)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: === Material stats ===
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Materials Translated:    144
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Material Translation Only: 0.04 s (46%)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.22-17.37.03:914][870]LogShaderCompilers: Display: ================================================
+[2025.11.22-17.37.06:778][175]LogStreaming: Display: FlushAsyncLoading(479): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.22-17.38.55:398][736]LogSlate: External Image Picker: DecompressImage failed
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: ================================================
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Total job queries 2,794, among them cache hits 676 (24.19%), DDC hits 1,888 (67.57%), Duplicates 95 (3.40%)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Tracking 2,023 distinct input hashes that result in 1,295 distinct outputs (64.01%)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: RAM used: 12.81 MiB of 3.20 GiB budget. Usage: 0.39%
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Shaders Compiled: 135
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Jobs assigned 135, completed 135 (100%)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Average time worker was idle: 188.81 s
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.17 s
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Job execution time: average 0.85 s, max 7.80 s
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Job life time (pending + execution): average 0.92 s, max 7.82
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Shader code size: total 1.324 MiB, numShaders 153, average 8.867 KiB, min 1.727 KiB, max 20.219 KiB
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 35.13 s
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Jobs were issued in 126 batches (only local compilation was used), average 1.07 jobs/batch
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Average processing rate: 3.84 jobs/sec
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Total thread time: 75.941 s
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Total thread preprocess time: 31.567 s
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Percentage time preprocessing: 41.57%
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Effective parallelization: 2.16 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.135101
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.85 sec, max 1.85 sec, min 1.85 sec)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 1.48 sec, max 1.48 sec, min 1.48 sec)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   19 times, average 1.09 sec, max 7.75 sec, min 0.54 sec)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    3 times, average 1.01 sec, max 1.18 sec, min 0.90 sec)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   11 times, average 0.85 sec, max 1.05 sec, min 0.73 sec)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 27.16% of total time (compiled   19 times, average 1.09 sec, max 7.75 sec, min 0.54 sec)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.27% of total time (compiled   40 times, average 0.38 sec, max 1.64 sec, min 0.29 sec)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 12.32% of total time (compiled   11 times, average 0.85 sec, max 1.05 sec, min 0.73 sec)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.72% of total time (compiled   24 times, average 0.24 sec, max 0.67 sec, min 0.13 sec)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display:                                                  FVelocityPS - 7.23% of total time (compiled   11 times, average 0.50 sec, max 0.64 sec, min 0.43 sec)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: === Material stats ===
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Materials Translated:    145
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Material Translation Only: 0.04 s (46%)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.22-17.40.03:915][259]LogShaderCompilers: Display: ================================================
+[2025.11.22-17.41.27:030][526]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2071.447998
+[2025.11.22-17.41.27:131][538]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-17.41.27:131][539]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2071.539062, Update Interval: 332.115845
+[2025.11.22-17.41.41:470][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.11.22-17.41.43:473][225]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-17.41.43:496][225]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.41.43:581][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.22-17.41.43:595][225]LogSavePackage: Moving output files for package: /Game/BuildLevel
+[2025.11.22-17.41.43:595][225]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BuildLevel6A43ABBF41C9C4BE2752E19968019851.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap'
+[2025.11.22-17.41.43:605][225]LogFileHelpers: Saving map 'BuildLevel' took 0.053
+[2025.11.22-17.41.43:611][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.293 ms (total: 414.420 ms)
+[2025.11.22-17.41.43:670][225]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.41.43:670][225]LogContentValidation: Enabled validators:
+[2025.11.22-17.41.43:670][225]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.41.43:670][225]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.41.43:670][225]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.41.43:670][225]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.41.43:670][225]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.41.43:670][225]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.41.43:670][225]AssetCheck: /Game/BuildLevel Validating asset
+[2025.11.22-17.42.07:424][938]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.11.22-17.42.07:430][938]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.11.22-17.42.07:451][939]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.11.22-17.42.10:688][325]LogContentBrowser: Attempting asset rename: NewInputAction -> NewInputAction
+[2025.11.22-17.42.10:688][325]LogContentBrowser: End creating deferred item NewInputAction
+[2025.11.22-17.42.15:723][874]LogContentBrowser: Deferred new asset file creation: NewInputMappingContext
+[2025.11.22-17.42.15:727][874]LogContentBrowser: Creating deferred item: NewInputMappingContext
+[2025.11.22-17.42.15:757][875]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputMappingContext).
+[2025.11.22-17.42.16:493][964]LogContentBrowser: Attempting asset rename: NewInputMappingContext -> NewInputMappingContext
+[2025.11.22-17.42.16:493][964]LogContentBrowser: End creating deferred item NewInputMappingContext
+[2025.11.22-17.42.18:911][215]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.11.22-17.42.18:917][215]LogContentBrowser: Creating deferred item: NewFolder
+[2025.11.22-17.42.18:925][216]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.11.22-17.42.22:969][702]LogContentBrowser: Attempting asset rename: NewFolder -> Input
+[2025.11.22-17.42.22:969][702]LogContentBrowser: End creating deferred item NewFolder
+[2025.11.22-17.42.27:872][220]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.42.27:872][220]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/NewInputMappingContext] ([1] browsable assets)...
+[2025.11.22-17.42.27:872][220]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/NewInputMappingContext]
+[2025.11.22-17.42.27:882][220]LogSavePackage: Moving output files for package: /Game/Input/NewInputMappingContext
+[2025.11.22-17.42.27:882][220]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/NewInputMappingContext4E31726D44F38BACDA8097AFA64B886E.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/NewInputMappingContext.uasset'
+[2025.11.22-17.42.27:882][220]LogFileHelpers: InternalPromptForCheckoutAndSave took 10.024 ms (total: 424.444 ms)
+[2025.11.22-17.42.27:921][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.11.22-17.42.27:935][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.11.22-17.42.27:948][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.22-17.42.27:968][220]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.11.22-17.42.27:970][220]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.42.27:970][220]LogContentValidation: Enabled validators:
+[2025.11.22-17.42.27:970][220]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.42.27:970][220]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.42.27:970][220]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.42.27:970][220]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.42.27:970][220]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.42.27:970][220]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.42.27:970][220]AssetCheck: /Game/Input/NewInputMappingContext Validating asset
+[2025.11.22-17.42.27:976][220]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.22-17.42.30:192][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.42.30:192][435]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/NewInputAction] ([1] browsable assets)...
+[2025.11.22-17.42.30:192][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/NewInputAction]
+[2025.11.22-17.42.30:192][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/NewInputAction" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/NewInputAction.uasset" SILENT=true
+[2025.11.22-17.42.30:201][435]LogSavePackage: Moving output files for package: /Game/Input/NewInputAction
+[2025.11.22-17.42.30:201][435]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/NewInputAction24DCF48D430E772D2489BD850B52A641.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/NewInputAction.uasset'
+[2025.11.22-17.42.30:202][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.896 ms (total: 434.341 ms)
+[2025.11.22-17.42.30:235][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.11.22-17.42.30:248][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.11.22-17.42.30:261][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.11.22-17.42.30:280][435]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.11.22-17.42.30:280][435]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.42.30:280][435]LogContentValidation: Enabled validators:
+[2025.11.22-17.42.30:280][435]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.42.30:280][435]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.42.30:280][435]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.42.30:280][435]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.42.30:280][435]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.42.30:280][435]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.42.30:280][435]AssetCheck: /Game/Input/NewInputAction Validating asset
+[2025.11.22-17.42.30:292][435]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.22-17.42.42:604][770]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/NewInputAction.NewInputAction
+[2025.11.22-17.42.44:937][  3]LogSlate: Window 'NewInputAction' being destroyed
+[2025.11.22-17.45.57:869][973]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/NewInputMappingContext.NewInputMappingContext
+[2025.11.22-17.46.34:712][280]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_TiltForward
+[2025.11.22-17.46.34:799][280]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.46.34:800][280]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IA_TiltForward] ([1] browsable assets)...
+[2025.11.22-17.46.34:800][280]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IA_TiltForward]
+[2025.11.22-17.46.34:800][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IA_TiltForward" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltForward.uasset" SILENT=true
+[2025.11.22-17.46.34:805][280]LogSavePackage: Moving output files for package: /Game/Input/IA_TiltForward
+[2025.11.22-17.46.34:805][280]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IA_TiltForwardDF0FAD1C486D3A488CE3C9800D55B985.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltForward.uasset'
+[2025.11.22-17.46.34:806][280]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.757 ms (total: 441.098 ms)
+[2025.11.22-17.46.34:883][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.11.22-17.46.34:900][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.11.22-17.46.34:912][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.22-17.46.34:958][280]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.46.34:958][280]LogContentValidation: Enabled validators:
+[2025.11.22-17.46.34:958][280]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.46.34:958][280]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.46.34:958][280]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.46.34:958][280]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.46.34:958][280]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.46.34:958][280]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.46.34:958][280]AssetCheck: /Game/Input/IA_TiltForward Validating asset
+[2025.11.22-17.46.34:990][280]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.22-17.46.45:122][450]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.11.22-17.46.45:126][450]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.11.22-17.46.45:132][451]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.11.22-17.46.51:720][242]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_TiltRight
+[2025.11.22-17.46.51:720][242]LogContentBrowser: End creating deferred item NewInputAction
+[2025.11.22-17.46.53:469][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.11.22-17.46.54:778][440]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-17.46.54:787][440]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.46.54:843][440]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IA_TiltRight] ([1] browsable assets)...
+[2025.11.22-17.46.54:843][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IA_TiltRight]
+[2025.11.22-17.46.54:843][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IA_TiltRight" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltRight.uasset" SILENT=true
+[2025.11.22-17.46.54:852][440]LogSavePackage: Moving output files for package: /Game/Input/IA_TiltRight
+[2025.11.22-17.46.54:852][440]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IA_TiltRight301A4F994639C572C9956A860AD8C3E2.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltRight.uasset'
+[2025.11.22-17.46.54:853][440]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/NewInputMappingContext] ([1] browsable assets)...
+[2025.11.22-17.46.54:853][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/NewInputMappingContext]
+[2025.11.22-17.46.54:860][440]LogSavePackage: Moving output files for package: /Game/Input/NewInputMappingContext
+[2025.11.22-17.46.54:860][440]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/NewInputMappingContext43F4B7C04F4DA2618345F381349C578D.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/NewInputMappingContext.uasset'
+[2025.11.22-17.46.54:870][440]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.893 ms (total: 523.991 ms)
+[2025.11.22-17.46.54:943][440]LogContentValidation: Display: Starting to validate 2 assets
+[2025.11.22-17.46.54:943][440]LogContentValidation: Enabled validators:
+[2025.11.22-17.46.54:943][440]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.46.54:943][440]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.46.54:943][440]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.46.54:943][440]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.46.54:943][440]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.46.54:943][440]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.46.54:943][440]AssetCheck: /Game/Input/IA_TiltRight Validating asset
+[2025.11.22-17.46.54:943][440]AssetCheck: /Game/Input/NewInputMappingContext Validating asset
+[2025.11.22-17.46.54:953][440]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.22-17.47.45:090][382]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2449.500244
+[2025.11.22-17.47.45:207][396]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-17.47.45:207][397]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2449.609375, Update Interval: 322.518982
+[2025.11.22-17.48.43:382][306]LogEditCondition: Error: EnhancedActionKeyMapping - EditCondition attempted to use an invalid operand "SettingBehavior" (value error).
+[2025.11.22-17.49.11:044][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.11.22-17.49.11:885][552]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-17.49.11:892][552]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.49.11:931][552]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/NewInputMappingContext] ([1] browsable assets)...
+[2025.11.22-17.49.11:931][552]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/NewInputMappingContext]
+[2025.11.22-17.49.11:939][552]LogSavePackage: Moving output files for package: /Game/Input/NewInputMappingContext
+[2025.11.22-17.49.11:939][552]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/NewInputMappingContext9806F29F4FE80DB290B37D9C4B04FF37.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/NewInputMappingContext.uasset'
+[2025.11.22-17.49.11:946][552]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.612 ms (total: 578.604 ms)
+[2025.11.22-17.49.11:981][552]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.49.11:981][552]LogContentValidation: Enabled validators:
+[2025.11.22-17.49.11:981][552]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.49.11:981][552]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.49.11:981][552]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.49.11:981][552]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.49.11:981][552]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.49.11:981][552]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.49.11:981][552]AssetCheck: /Game/Input/NewInputMappingContext Validating asset
