@@ -45,5 +45,11 @@
     <ClInclude Include="..\..\Source\PhysicsPuzzleMaze\PlatformActor.h">
       <Filter>Source\PhysicsPuzzleMaze</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PhysicsPuzzleMaze\PlatformPlayerController.cpp">
+      <Filter>Source\PhysicsPuzzleMaze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PhysicsPuzzleMaze\PlatformPlayerController.h">
+      <Filter>Source\PhysicsPuzzleMaze</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
