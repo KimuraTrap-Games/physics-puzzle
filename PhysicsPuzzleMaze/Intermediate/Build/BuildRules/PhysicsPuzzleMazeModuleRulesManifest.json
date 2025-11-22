@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\scott\\Desktop\\GameDevProjects\\physics-puzzle\\PhysicsPuzzleMaze\\Source\\PhysicsPuzzleMaze\\PhysicsPuzzleMaze.Build.cs",
+		"C:\\Users\\scott\\Desktop\\GameDevProjects\\physics-puzzle\\PhysicsPuzzleMaze\\Source\\PhysicsPuzzleMaze.Target.cs",
+		"C:\\Users\\scott\\Desktop\\GameDevProjects\\physics-puzzle\\PhysicsPuzzleMaze\\Source\\PhysicsPuzzleMazeEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}
