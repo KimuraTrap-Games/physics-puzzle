@@ -8,12 +8,15 @@ void APlatformPlayerController::BeginPlay()
     Super::BeginPlay();
 
     // Enable Enhanced Input
-    if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer()))
+    if (ULocalPlayer* LocalPlayer = GetLocalPlayer())
     {
-        // Add default mapping context if needed
-        if (InputMappingContext)
+        if (UEnhancedInputLocalPlayerSubsystem* Subsystem = LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>())
         {
-            Subsystem->AddMappingContext(InputMappingContext, 0);
+            // Add mapping context
+            if (InputMappingContext)
+            {
+                Subsystem->AddMappingContext(InputMappingContext, 0);
+            }
         }
     }
 
@@ -32,16 +35,15 @@ void APlatformPlayerController::BeginPlay()
 
 void APlatformPlayerController::SetupInputComponent()
 {
-    // Call the base class implementation
-    Super::SetupInputComponent();
+    Super::APlayerController::SetupInputComponent();
 
-    // Enhanced input binding
     if (UEnhancedInputComponent* EnhancedInput = Cast<UEnhancedInputComponent>(InputComponent))
     {
         if (IA_TiltForward)
         {
             EnhancedInput->BindAction(IA_TiltForward, ETriggerEvent::Triggered, this, &APlatformPlayerController::TiltForward);
         }
+
         if (IA_TiltRight)
         {
             EnhancedInput->BindAction(IA_TiltRight, ETriggerEvent::Triggered, this, &APlatformPlayerController::TiltRight);

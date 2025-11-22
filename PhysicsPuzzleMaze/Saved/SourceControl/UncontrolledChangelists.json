@@ -6,16 +6,17 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap",
-				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/Ball.uasset",
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Ball.uasset",
-				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/NewInputMappingContext.uasset",
-				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/NewInputAction.uasset",
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltForward.uasset",
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltRight.uasset",
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset",
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/BP_PlatformController.uasset",
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset",
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Splash/EdSplash.uasset",
+				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/BP_PlatformPlayerController.uasset",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/Ball.uasset",
+				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/NewInputMappingContext.uasset",
+				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/NewInputAction.uasset",
 				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_Platform.uasset"
 			]
 		}
