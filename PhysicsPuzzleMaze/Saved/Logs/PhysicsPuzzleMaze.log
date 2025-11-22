@@ -2141,3 +2141,222 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.22-17.49.11:981][552]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.22-17.49.11:981][552]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.22-17.49.11:981][552]AssetCheck: /Game/Input/NewInputMappingContext Validating asset
+[2025.11.22-17.50.32:886][448]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/IA_TiltForward.IA_TiltForward
+[2025.11.22-17.51.19:166][911]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/IA_TiltRight.IA_TiltRight
+[2025.11.22-17.51.34:809][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.11.22-17.51.35:997][751]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-17.51.36:006][751]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.51.36:065][751]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IA_TiltForward] ([1] browsable assets)...
+[2025.11.22-17.51.36:065][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IA_TiltForward]
+[2025.11.22-17.51.36:065][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IA_TiltForward" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltForward.uasset" SILENT=true
+[2025.11.22-17.51.36:075][751]LogSavePackage: Moving output files for package: /Game/Input/IA_TiltForward
+[2025.11.22-17.51.36:075][751]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IA_TiltForward9C61779E417F02ECAA043E9CCA721FAA.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltForward.uasset'
+[2025.11.22-17.51.36:076][751]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IA_TiltRight] ([1] browsable assets)...
+[2025.11.22-17.51.36:076][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IA_TiltRight]
+[2025.11.22-17.51.36:076][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IA_TiltRight" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltRight.uasset" SILENT=true
+[2025.11.22-17.51.36:083][751]LogSavePackage: Moving output files for package: /Game/Input/IA_TiltRight
+[2025.11.22-17.51.36:083][751]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IA_TiltRight09B7A6644C6BCA6DB0C7D8B71125EAC8.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltRight.uasset'
+[2025.11.22-17.51.36:090][751]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.034 ms (total: 663.638 ms)
+[2025.11.22-17.51.36:148][751]LogContentValidation: Display: Starting to validate 2 assets
+[2025.11.22-17.51.36:148][751]LogContentValidation: Enabled validators:
+[2025.11.22-17.51.36:148][751]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.51.36:148][751]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.51.36:148][751]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.51.36:148][751]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.51.36:148][751]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.51.36:148][751]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.51.36:148][751]AssetCheck: /Game/Input/IA_TiltForward Validating asset
+[2025.11.22-17.51.36:148][751]AssetCheck: /Game/Input/IA_TiltRight Validating asset
+[2025.11.22-17.52.31:645][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.11.22-17.52.31:648][923]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BuildLevel' took 0.019
+[2025.11.22-17.52.31:648][923]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/NewInputMappingContext] ([1] browsable assets)...
+[2025.11.22-17.52.31:648][923]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/NewInputMappingContext]
+[2025.11.22-17.52.31:657][923]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Input/NewInputMappingContext_Auto2
+[2025.11.22-17.52.31:657][923]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/NewInputMappingContext_Auto2D70AE89847E36E86A7C100B5525E0399.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/Autosaves/Game/Input/NewInputMappingContext_Auto2.uasset'
+[2025.11.22-17.52.31:658][923]LogFileHelpers: Auto-saving content packages took 0.010
+[2025.11.22-17.53.11:371][380]LogContentBrowser: Attempting asset rename: NewInputMappingContext -> IMC_TiltControls
+[2025.11.22-17.53.11:455][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.53.11:456][380]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_TiltControls] ([1] browsable assets)...
+[2025.11.22-17.53.11:456][380]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_TiltControls]
+[2025.11.22-17.53.11:456][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_TiltControls" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset" SILENT=true
+[2025.11.22-17.53.11:463][380]LogSavePackage: Moving output files for package: /Game/Input/IMC_TiltControls
+[2025.11.22-17.53.11:463][380]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IMC_TiltControlsCA45A34A4034F72D119AB7B9645E208C.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset'
+[2025.11.22-17.53.11:464][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 8.266 ms (total: 671.905 ms)
+[2025.11.22-17.53.11:486][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.11.22-17.53.11:500][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.11.22-17.53.11:512][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.11.22-17.53.11:564][380]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.53.11:564][380]LogContentValidation: Enabled validators:
+[2025.11.22-17.53.11:564][380]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.53.11:564][380]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.53.11:564][380]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.53.11:564][380]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.53.11:564][380]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.53.11:564][380]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.53.11:564][380]AssetCheck: /Game/Input/IMC_TiltControls Validating asset
+[2025.11.22-17.53.11:565][380]AssetCheck: Error: [AssetLog] C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Content\Input\IMC_TiltControls.uasset: A Player Mappable Key Settings must have a valid 'Name'
+[2025.11.22-17.53.11:753][380]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.22-17.53.14:955][726]LogSlate: Window 'Message Log' being destroyed
+[2025.11.22-17.53.14:961][726]LogSlate: Window 'Message Log' being destroyed
+[2025.11.22-17.53.45:102][288]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2809.517334
+[2025.11.22-17.53.45:209][301]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-17.53.45:209][302]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2809.617432, Update Interval: 331.579346
+[2025.11.22-17.53.47:370][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.22-17.53.48:358][558]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-17.53.48:366][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.53.48:428][558]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IA_TiltForward] ([1] browsable assets)...
+[2025.11.22-17.53.48:428][558]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IA_TiltForward]
+[2025.11.22-17.53.48:428][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IA_TiltForward" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltForward.uasset" SILENT=true
+[2025.11.22-17.53.48:430][558]LogSavePackage: Moving output files for package: /Game/Input/IA_TiltForward
+[2025.11.22-17.53.48:430][558]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IA_TiltForward8F6B514345C6F1AA0708E5BAA35D9BCA.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IA_TiltForward.uasset'
+[2025.11.22-17.53.48:436][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.178 ms (total: 741.084 ms)
+[2025.11.22-17.53.48:494][558]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.53.48:494][558]LogContentValidation: Enabled validators:
+[2025.11.22-17.53.48:494][558]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.53.48:494][558]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.53.48:496][558]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.53.48:496][558]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.53.48:496][558]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.53.48:496][558]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.53.48:496][558]AssetCheck: /Game/Input/IA_TiltForward Validating asset
+[2025.11.22-17.57.32:038][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.11.22-17.57.33:604][ 61]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-17.57.33:613][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.57.33:670][ 61]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_TiltControls] ([1] browsable assets)...
+[2025.11.22-17.57.33:670][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_TiltControls]
+[2025.11.22-17.57.33:670][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_TiltControls" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset" SILENT=true
+[2025.11.22-17.57.33:679][ 61]LogSavePackage: Moving output files for package: /Game/Input/IMC_TiltControls
+[2025.11.22-17.57.33:679][ 61]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IMC_TiltControls95150AB5484A9BC9A81FA3A96E14D8CD.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset'
+[2025.11.22-17.57.33:697][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.477 ms (total: 824.562 ms)
+[2025.11.22-17.57.33:769][ 61]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.57.33:770][ 61]LogContentValidation: Enabled validators:
+[2025.11.22-17.57.33:770][ 61]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.57.33:770][ 61]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.57.33:770][ 61]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.57.33:770][ 61]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.57.33:770][ 61]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.57.33:770][ 61]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.57.33:770][ 61]AssetCheck: /Game/Input/IMC_TiltControls Validating asset
+[2025.11.22-17.57.33:770][ 61]AssetCheck: Error: [AssetLog] C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Content\Input\IMC_TiltControls.uasset: A Player Mappable Key Settings must have a valid 'Name'
+[2025.11.22-17.57.55:548][614]LogSlate: Window 'Message Log' being destroyed
+[2025.11.22-17.57.55:554][614]LogSlate: Window 'Message Log' being destroyed
+[2025.11.22-17.59.00:072][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.11.22-17.59.00:994][652]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-17.59.01:000][652]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.59.01:055][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_TiltControls] ([1] browsable assets)...
+[2025.11.22-17.59.01:056][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_TiltControls]
+[2025.11.22-17.59.01:056][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_TiltControls" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset" SILENT=true
+[2025.11.22-17.59.01:066][652]LogSavePackage: Moving output files for package: /Game/Input/IMC_TiltControls
+[2025.11.22-17.59.01:066][652]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IMC_TiltControls47E92C1648048341D7B166A5DDEBD25B.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset'
+[2025.11.22-17.59.01:080][652]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.925 ms (total: 905.487 ms)
+[2025.11.22-17.59.01:134][652]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.59.01:134][652]LogContentValidation: Enabled validators:
+[2025.11.22-17.59.01:134][652]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.59.01:134][652]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.59.01:134][652]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.59.01:134][652]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.59.01:134][652]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.59.01:134][652]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.59.01:134][652]AssetCheck: /Game/Input/IMC_TiltControls Validating asset
+[2025.11.22-17.59.05:195][128]LogSlate: Window 'Message Log' being destroyed
+[2025.11.22-17.59.05:199][128]LogSlate: Window 'Message Log' being destroyed
+[2025.11.22-17.59.56:804][283]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3181.227051
+[2025.11.22-17.59.56:911][296]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-17.59.56:911][297]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3181.326416, Update Interval: 348.778961
+[2025.11.22-18.00.37:279][139]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-18.00.37:337][139]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_TiltControls] ([1] browsable assets)...
+[2025.11.22-18.00.37:337][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_TiltControls]
+[2025.11.22-18.00.37:337][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_TiltControls" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset" SILENT=true
+[2025.11.22-18.00.37:339][139]LogSavePackage: Moving output files for package: /Game/Input/IMC_TiltControls
+[2025.11.22-18.00.37:340][139]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IMC_TiltControls8D11990D4EA5EFAB94AADDBB2A78F855.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset'
+[2025.11.22-18.00.37:344][139]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.869 ms (total: 971.357 ms)
+[2025.11.22-18.00.37:387][139]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-18.00.37:387][139]LogContentValidation: Enabled validators:
+[2025.11.22-18.00.37:387][139]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-18.00.37:387][139]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-18.00.37:387][139]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-18.00.37:387][139]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-18.00.37:387][139]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-18.00.37:387][139]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-18.00.37:387][139]AssetCheck: /Game/Input/IMC_TiltControls Validating asset
+[2025.11.22-18.01.06:772][652]LogSlate: Window 'Message Log' being destroyed
+[2025.11.22-18.01.06:776][652]LogSlate: Window 'Message Log' being destroyed
+[2025.11.22-18.01.08:944][912]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-18.01.08:994][912]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_TiltControls] ([1] browsable assets)...
+[2025.11.22-18.01.08:994][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_TiltControls]
+[2025.11.22-18.01.08:994][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_TiltControls" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset" SILENT=true
+[2025.11.22-18.01.08:996][912]LogSavePackage: Moving output files for package: /Game/Input/IMC_TiltControls
+[2025.11.22-18.01.08:997][912]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IMC_TiltControls8D41B43B48417B8A2B2BD38F6A21518C.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset'
+[2025.11.22-18.01.09:002][912]LogFileHelpers: InternalPromptForCheckoutAndSave took 58.698 ms (total: 1.03 sec)
+[2025.11.22-18.01.09:042][912]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-18.01.09:042][912]LogContentValidation: Enabled validators:
+[2025.11.22-18.01.09:042][912]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-18.01.09:042][912]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-18.01.09:042][912]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-18.01.09:042][912]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-18.01.09:042][912]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-18.01.09:042][912]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-18.01.09:044][912]AssetCheck: /Game/Input/IMC_TiltControls Validating asset
+[2025.11.22-18.01.16:220][761]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-18.01.16:257][761]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_TiltControls] ([1] browsable assets)...
+[2025.11.22-18.01.16:257][761]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_TiltControls]
+[2025.11.22-18.01.16:257][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_TiltControls" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset" SILENT=true
+[2025.11.22-18.01.16:267][761]LogSavePackage: Moving output files for package: /Game/Input/IMC_TiltControls
+[2025.11.22-18.01.16:267][761]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IMC_TiltControlsB216FD5A4A98581D7B30E0A3E222D5FE.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset'
+[2025.11.22-18.01.16:283][761]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.476 ms (total: 1.09 sec)
+[2025.11.22-18.01.16:341][761]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-18.01.16:341][761]LogContentValidation: Enabled validators:
+[2025.11.22-18.01.16:341][761]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-18.01.16:341][761]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-18.01.16:341][761]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-18.01.16:341][761]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-18.01.16:341][761]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-18.01.16:341][761]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-18.01.16:341][761]AssetCheck: /Game/Input/IMC_TiltControls Validating asset
+[2025.11.22-18.01.18:613][ 29]Cmd: TRANSACTION UNDO
+[2025.11.22-18.01.18:613][ 29]LogEditorTransaction: Undo Edit X
+[2025.11.22-18.01.20:034][143]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-18.01.20:096][143]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_TiltControls] ([1] browsable assets)...
+[2025.11.22-18.01.20:096][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_TiltControls]
+[2025.11.22-18.01.20:096][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_TiltControls" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset" SILENT=true
+[2025.11.22-18.01.20:098][143]LogSavePackage: Moving output files for package: /Game/Input/IMC_TiltControls
+[2025.11.22-18.01.20:098][143]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IMC_TiltControls5F8A37B6426F981169AD83999AD28473.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset'
+[2025.11.22-18.01.20:106][143]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.409 ms (total: 1.16 sec)
+[2025.11.22-18.01.20:163][143]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-18.01.20:163][143]LogContentValidation: Enabled validators:
+[2025.11.22-18.01.20:163][143]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-18.01.20:163][143]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-18.01.20:163][143]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-18.01.20:163][143]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-18.01.20:163][143]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-18.01.20:163][143]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-18.01.20:163][143]AssetCheck: /Game/Input/IMC_TiltControls Validating asset
+[2025.11.22-18.03.29:700][415]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.11.22-18.03.29:707][415]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.11.22-18.03.29:713][415]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.11.22-18.03.29:732][416]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.11.22-18.03.38:258][438]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_PlatformController
+[2025.11.22-18.03.38:274][438]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.11.22-18.03.41:987][840]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Input/BP_PlatformController.BP_PlatformController
+[2025.11.22-18.03.41:988][840]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.11.22-18.03.42:019][840]LogStreaming: Display: FlushAsyncLoading(480): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.22-18.03.42:659][840]LogStaticMesh: Display: Building static mesh PhAT_FloorBox (Required Memory Estimate: 0.024887 MB)...
+[2025.11.22-18.03.42:660][840]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2025.11.22-18.03.45:414][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.11.22-18.03.46:177][105]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-18.03.46:194][105]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-18.03.46:250][105]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/BP_PlatformController] ([2] browsable assets)...
+[2025.11.22-18.03.46:250][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/BP_PlatformController]
+[2025.11.22-18.03.46:262][105]LogSavePackage: Moving output files for package: /Game/Input/BP_PlatformController
+[2025.11.22-18.03.46:262][105]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_PlatformControllerCAFB06BE4AB39593C4A297BEAA134270.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/BP_PlatformController.uasset'
+[2025.11.22-18.03.46:278][105]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.363 ms (total: 1.24 sec)
+[2025.11.22-18.03.46:351][105]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-18.03.46:351][105]LogContentValidation: Enabled validators:
+[2025.11.22-18.03.46:351][105]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-18.03.46:351][105]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-18.03.46:351][105]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-18.03.46:351][105]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-18.03.46:351][105]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-18.03.46:351][105]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-18.03.46:351][105]AssetCheck: /Game/Input/BP_PlatformController Validating asset
+[2025.11.22-18.03.46:364][105]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/SourceControl/UncontrolledChangelists.json
