@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PhysicsPuzzleMaze.gen.cpp.obj": [
+			"PhysicsPuzzleMaze.init.gen.cpp.obj",
+			"PlatformActor.gen.cpp.obj"
+		]
+	}
+}

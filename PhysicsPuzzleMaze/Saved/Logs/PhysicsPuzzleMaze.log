@@ -4896,3 +4896,144 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.22-21.40.38:962][  0]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.22-21.40.38:962][  0]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.22-21.40.38:962][  0]AssetCheck: /Game/BP_Platform Validating asset
+[2025.11.22-21.41.08:263][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.11.22-21.41.09:045][313]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-21.41.09:097][313]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_Platform] ([2] browsable assets)...
+[2025.11.22-21.41.09:151][313]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Platform.BP_Platform]
+[2025.11.22-21.41.09:151][313]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Platform]
+[2025.11.22-21.41.09:151][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Platform" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_Platform.uasset" SILENT=true
+[2025.11.22-21.41.09:164][313]LogSavePackage: Moving output files for package: /Game/BP_Platform
+[2025.11.22-21.41.09:165][313]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_PlatformA54EE32A41CBE2F9514F958C15BD9AAC.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_Platform.uasset'
+[2025.11.22-21.41.09:172][313]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.853 ms (total: 4.76 sec)
+[2025.11.22-21.41.09:230][313]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-21.41.09:230][313]LogContentValidation: Enabled validators:
+[2025.11.22-21.41.09:230][313]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-21.41.09:230][313]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-21.41.09:230][313]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-21.41.09:230][313]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-21.41.09:230][313]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-21.41.09:230][313]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-21.41.09:230][313]AssetCheck: /Game/BP_Platform Validating asset
+[2025.11.22-21.41.51:073][127]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Source/PhysicsPuzzleMaze/PlatformActor.cpp'.
+[2025.11.22-21.41.51:084][127]Running C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/PhysicsPuzzleMaze.uproject" -game -rocket -progress
+[2025.11.22-21.41.51:209][127]Using bundled DotNet SDK version: 8.0.300 win-x64
+[2025.11.22-21.41.51:209][127]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/PhysicsPuzzleMaze.uproject" -game -rocket -progress
+[2025.11.22-21.41.51:612][127]Log file: C:\Users\scott\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.11.22-21.41.51:813][127]
+[2025.11.22-21.41.51:813][127]Generating VisualStudio2022 project files:
+[2025.11.22-21.41.51:813][127]Discovering modules, targets and source code for project...
+[2025.11.22-21.41.51:914][127]Adding projects for all targets...
+[2025.11.22-21.41.56:537][127]Adding projects for all targets took 4.61s
+[2025.11.22-21.41.56:537][127]Adding projects for all game projects took 0.00s
+[2025.11.22-21.41.56:739][127]Adding projects for all modules took 0.25s
+[2025.11.22-21.41.57:242][127]Compiling Rules Assemblies
+[2025.11.22-21.41.57:242][127]Compiling Rules Assemblies 100%
+[2025.11.22-21.41.57:242][127]Creating Build Targets
+[2025.11.22-21.41.58:551][127]Creating Build Targets 100%
+[2025.11.22-21.41.58:551][127]Creating Build Targets took 1.35s
+[2025.11.22-21.41.58:551][127]Binding IntelliSense data...
+[2025.11.22-21.42.10:210][127]Binding IntelliSense data... 1%
+[2025.11.22-21.42.19:904][127]Binding IntelliSense data... 100%
+[2025.11.22-21.42.19:905][127]Binding IntelliSense data took 21.28s
+[2025.11.22-21.42.19:905][127]Writing project files...
+[2025.11.22-21.42.21:814][127]Writing project files... 100%
+[2025.11.22-21.42.21:814][127]Writing project files took 1.93s
+[2025.11.22-21.42.21:814][127]
+[2025.11.22-21.42.21:814][127]Generating QueryTargets data for editor...
+[2025.11.22-21.42.21:814][127]Compiling Rules Assemblies
+[2025.11.22-21.42.21:814][127]Compiling Rules Assemblies 100%
+[2025.11.22-21.42.21:814][127]Writing Query Target Info
+[2025.11.22-21.42.21:814][127]Writing Query Target Info 100%
+[2025.11.22-21.42.21:814][127]Generating QueryTargets data for editor took 0.02s
+[2025.11.22-21.42.21:814][127]
+[2025.11.22-21.42.21:815][127]Result: Succeeded
+[2025.11.22-21.42.21:815][127]Total execution time: 30.52 seconds
+[2025.11.22-21.42.22:331][127]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.11.22-21.42.22:334][127]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.22:336][127]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.22:336][127]LogSlate: Window 'Add C++ Class' being destroyed
+[2025.11.22-21.42.22:343][127]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.22:348][127]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.22:388][128]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.22:391][128]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.22:721][129]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.22:724][129]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.23:054][130]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.23:057][130]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.23:387][131]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.24:682][131]LogVSAccessor: Couldn't get item operations. Visual Studio may still be initializing.
+[2025.11.22-21.42.24:696][132]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.24:702][132]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.25:029][133]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.25:033][133]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.25:364][134]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.25:370][134]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.25:698][135]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.25:716][135]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.26:028][136]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.26:032][136]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.26:361][137]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.26:364][137]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.11.22-21.42.30:375][150]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug87901403-c4b0-4bb8-8a61-ea547f0ea2b0 ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\link.exe @C:\Users\scott\AppData\Local\Temp\7521.tmp
+   Creating library C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Binaries\Win64\UnrealEditor-PhysicsPuzzleMaze.patch_0.lib and object C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Binaries\Win64\UnrealEditor-PhysicsPuzzleMaze.patch_0.exp
+Detoured run took 826ms
+[2025.11.22-21.42.30:777][150]LogClass: Could not find existing package /Script/PhysicsPuzzleMaze for reload of class PlatformActor, assuming a new package.
+[2025.11.22-21.42.30:844][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.11.22-21.42.31:620][151]Display: Reload/Re-instancing Complete: 1 package new, 1 class new
+[2025.11.22-21.42.31:620][151]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.11.22-21.44.37:320][529]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16657.976562
+[2025.11.22-21.44.38:320][532]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-21.44.38:320][532]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16658.642578, Update Interval: 335.567505
+[2025.11.22-21.48.15:162][461]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.11.22-21.48.19:581][989]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debugc771c453-d02d-4d70-98a6-4cfbc47315e3 ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\link.exe @C:\Users\scott\AppData\Local\Temp\C964.tmp
+   Creating library C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Binaries\Win64\UnrealEditor-PhysicsPuzzleMaze.patch_1.lib and object C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Binaries\Win64\UnrealEditor-PhysicsPuzzleMaze.patch_1.exp
+Detoured run took 791ms
+[2025.11.22-21.48.19:704][993]LogClass: UPackage /Script/PhysicsPuzzleMaze Reload.
+[2025.11.22-21.48.19:704][993]LogClass: UClass PlatformActor Reload.
+[2025.11.22-21.48.19:704][993]LogClass: Could not find existing class PlatformActor in package /Script/PhysicsPuzzleMaze for reload, assuming new or modified class
+[2025.11.22-21.48.19:713][993]Re-instancing PlatformActor after reload.
+[2025.11.22-21.48.19:874][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.11.22-21.48.20:321][994]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2025.11.22-21.48.20:321][994]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.11.22-21.49.28:838][712]Cmd: DELETE
+[2025.11.22-21.49.28:838][712]Cmd: ACTOR DELETE
+[2025.11.22-21.49.28:839][712]LogEditorActor: Deleted Actor: BP_Platform_C
+[2025.11.22-21.49.28:961][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2025.11.22-21.49.28:964][712]LogEditorActor: Deleted 1 Actors (0.126 secs)
+[2025.11.22-21.49.34:117][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.11.22-21.49.34:260][294]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.11.22-21.49.34:271][294]LogSlate: Took 0.009600 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.11.22-21.49.36:694][294]LogSlate: Window 'Delete Assets' being destroyed
+[2025.11.22-21.49.36:785][294]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.11.22-21.49.36:785][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-21.49.36:822][294]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP_Platform.BP_Platform
+	Asset Type: Blueprint
+[2025.11.22-21.49.37:041][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.22-21.49.37:100][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.22-21.49.37:124][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.11.22-21.49.37:145][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.11.22-21.49.37:178][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.11.22-21.49.48:494][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.11.22-21.49.50:256][542]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-21.49.50:280][542]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-21.49.50:361][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.11.22-21.49.50:375][542]LogSavePackage: Moving output files for package: /Game/BuildLevel
+[2025.11.22-21.49.50:376][542]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BuildLevel7A11A58C445A29559B6698BC0DCACEFB.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap'
+[2025.11.22-21.49.50:385][542]LogFileHelpers: Saving map 'BuildLevel' took 0.066
+[2025.11.22-21.49.50:391][542]LogFileHelpers: InternalPromptForCheckoutAndSave took 110.767 ms (total: 4.87 sec)
+[2025.11.22-21.49.50:436][542]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-21.49.50:436][542]LogContentValidation: Enabled validators:
+[2025.11.22-21.49.50:436][542]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-21.49.50:436][542]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-21.49.50:436][542]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-21.49.50:436][542]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-21.49.50:436][542]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-21.49.50:436][542]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-21.49.50:436][542]AssetCheck: /Game/BuildLevel Validating asset

@@ -37,12 +37,15 @@
 /NOIMPLIB
 /NOEXP
 "C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Intermediate/Build/Win64/x64/PhysicsPuzzleMazeEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Intermediate/Build/Win64/x64/UnrealEditor/Development/PhysicsPuzzleMaze/PhysicsPuzzleMaze.init.gen.cpp.obj"
+"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Intermediate/Build/Win64/x64/UnrealEditor/Development/PhysicsPuzzleMaze/PlatformActor.gen.cpp.obj"
 "C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Intermediate/Build/Win64/x64/UnrealEditor/Development/PhysicsPuzzleMaze/PhysicsPuzzleMaze.cpp.obj"
 "C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Intermediate/Build/Win64/x64/UnrealEditor/Development/PhysicsPuzzleMaze/PerModuleInline.gen.cpp.obj"
+"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Intermediate/Build/Win64/x64/UnrealEditor/Development/PhysicsPuzzleMaze/PlatformActor.cpp.obj"
 "C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Intermediate/Build/Win64/x64/UnrealEditor/Development/PhysicsPuzzleMaze/Default.rc2.res"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/CoreUObject/UnrealEditor-CoreUObject.lib"
-"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/InputCore/UnrealEditor-InputCore.lib"
 "../Plugins/EnhancedInput/Intermediate/Build/Win64/x64/UnrealEditor/Development/EnhancedInput/UnrealEditor-EnhancedInput.lib"
 "delayimp.lib"
