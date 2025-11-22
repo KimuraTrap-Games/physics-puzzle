@@ -2601,3 +2601,65 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.22-18.24.31:667][400]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.22-18.24.31:667][400]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.22-18.24.31:667][400]AssetCheck: /Game/BP_Platform Validating asset
+[2025.11.22-18.25.20:563][372]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4704.934082
+[2025.11.22-18.25.20:678][386]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-18.25.20:678][387]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4705.041992, Update Interval: 335.946533
+[2025.11.22-18.25.26:802][107]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.11.22-18.25.26:802][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-18.25.26:855][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.11.22-18.28.11:576][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.11.22-18.28.13:147][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-18.28.13:199][341]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_Platform] ([2] browsable assets)...
+[2025.11.22-18.28.13:199][341]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Platform]
+[2025.11.22-18.28.13:199][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Platform" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_Platform.uasset" SILENT=true
+[2025.11.22-18.28.13:212][341]LogSavePackage: Moving output files for package: /Game/BP_Platform
+[2025.11.22-18.28.13:212][341]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_PlatformF88AB788430766DFDD2EFAA3582F7BD1.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_Platform.uasset'
+[2025.11.22-18.28.13:219][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.412 ms (total: 2.06 sec)
+[2025.11.22-18.28.13:282][341]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-18.28.13:282][341]LogContentValidation: Enabled validators:
+[2025.11.22-18.28.13:282][341]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-18.28.13:282][341]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-18.28.13:282][341]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-18.28.13:282][341]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-18.28.13:282][341]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-18.28.13:282][341]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-18.28.13:282][341]AssetCheck: /Game/BP_Platform Validating asset
+[2025.11.22-18.28.42:191][744]LogEditorTransaction: Undo Move Node
+[2025.11.22-18.28.45:010][ 23]LogEditorTransaction: Undo Add Node
+[2025.11.22-18.28.47:247][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.11.22-18.28.47:760][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-18.28.47:810][339]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_Platform] ([2] browsable assets)...
+[2025.11.22-18.28.47:810][339]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Platform]
+[2025.11.22-18.28.47:810][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Platform" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_Platform.uasset" SILENT=true
+[2025.11.22-18.28.47:822][339]LogSavePackage: Moving output files for package: /Game/BP_Platform
+[2025.11.22-18.28.47:823][339]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_PlatformE9E1798040243457A103A0A2F06EFC57.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_Platform.uasset'
+[2025.11.22-18.28.47:831][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.275 ms (total: 2.13 sec)
+[2025.11.22-18.28.47:876][339]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-18.28.47:876][339]LogContentValidation: Enabled validators:
+[2025.11.22-18.28.47:876][339]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-18.28.47:876][339]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-18.28.47:876][339]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-18.28.47:876][339]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-18.28.47:876][339]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-18.28.47:876][339]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-18.28.47:876][339]AssetCheck: /Game/BP_Platform Validating asset
+[2025.11.22-18.29.33:970][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.11.22-18.29.34:724][475]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-18.29.34:774][475]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_Platform] ([2] browsable assets)...
+[2025.11.22-18.29.34:774][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Platform]
+[2025.11.22-18.29.34:774][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Platform" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_Platform.uasset" SILENT=true
+[2025.11.22-18.29.34:787][475]LogSavePackage: Moving output files for package: /Game/BP_Platform
+[2025.11.22-18.29.34:787][475]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_PlatformDB03EB904ADB80C7E46F84A2017549F5.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_Platform.uasset'
+[2025.11.22-18.29.34:795][475]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.000 ms (total: 2.20 sec)
+[2025.11.22-18.29.34:858][475]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-18.29.34:858][475]LogContentValidation: Enabled validators:
+[2025.11.22-18.29.34:858][475]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-18.29.34:858][475]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-18.29.34:858][475]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-18.29.34:858][475]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-18.29.34:858][475]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-18.29.34:858][475]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-18.29.34:858][475]AssetCheck: /Game/BP_Platform Validating asset
+[2025.11.22-18.31.40:213][146]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5084.562500
+[2025.11.22-18.31.41:212][149]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-18.31.41:213][149]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5085.229492, Update Interval: 317.183136
