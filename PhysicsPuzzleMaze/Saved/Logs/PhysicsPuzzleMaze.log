@@ -1815,3 +1815,6 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.22-17.25.56:281][302]LogHttp: Warning: 0000024FAA439A00: libcurl info message cache 38 (client read function EOF fail, only 0/933 of needed bytes read)
 [2025.11.22-17.25.56:281][302]LogHttp: Warning: 0000024FAA439A00: libcurl info message cache 39 (closing connection #6)
 [2025.11.22-17.25.56:281][302]LogHttp: Warning: 0000024FAA439A00 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0A0AB294-4E91-43A5-AEF4-0CB065AE7E90%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.20s
+[2025.11.22-17.29.13:637][893]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1338.055786
+[2025.11.22-17.29.14:638][896]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-17.29.14:638][896]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1338.723511, Update Interval: 348.692902
