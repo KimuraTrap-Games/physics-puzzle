@@ -1818,3 +1818,75 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.22-17.29.13:637][893]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1338.055786
 [2025.11.22-17.29.14:638][896]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.11.22-17.29.14:638][896]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1338.723511, Update Interval: 348.692902
+[2025.11.22-17.32.26:124][646]Cmd: DELETE
+[2025.11.22-17.32.26:124][646]Cmd: ACTOR DELETE
+[2025.11.22-17.32.26:134][646]LogEditorActor: Deleted Actor: PlayerStart
+[2025.11.22-17.32.26:154][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.11.22-17.32.26:162][646]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2025.11.22-17.32.46:042][922]LogPathView: [ContentBrowserDrawer][PathView] HandleSettingChanged None
+[2025.11.22-17.32.46:049][922]LogPathView: [ContentBrowserDrawer][PathView] HandleSettingChanged None
+[2025.11.22-17.32.53:665][727]LogContentBrowser: Deferred new asset file creation: Sphere1
+[2025.11.22-17.32.53:673][727]LogContentBrowser: Creating deferred item: Sphere1
+[2025.11.22-17.32.53:685][728]LogContentBrowser: Renaming the item being created (Deferred Item: Sphere1).
+[2025.11.22-17.32.59:420][402]LogContentBrowser: Attempting asset rename: Sphere1 -> Ball
+[2025.11.22-17.32.59:425][402]LogContentBrowser: End creating deferred item Sphere1
+[2025.11.22-17.33.03:968][840]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.33.03:968][840]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/Ball] ([1] browsable assets)...
+[2025.11.22-17.33.04:024][840]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Engine/Ball.Ball]
+[2025.11.22-17.33.04:024][840]OBJ SavePackage: Finished generating thumbnails for package [/Engine/Ball]
+[2025.11.22-17.33.04:024][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/Ball" FILE="../../../Engine/Content/Ball.uasset" SILENT=true
+[2025.11.22-17.33.04:037][840]LogSavePackage: Moving output files for package: /Engine/Ball
+[2025.11.22-17.33.04:038][840]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/Ball3DB6739C4733DAF82AE918849A2BDEE5.tmp' to '../../../Engine/Content/Ball.uasset'
+[2025.11.22-17.33.04:038][840]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.200 ms (total: 185.316 ms)
+[2025.11.22-17.33.04:078][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.11.22-17.33.04:094][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.11.22-17.33.04:106][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.11.22-17.33.04:127][840]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.11.22-17.33.04:127][840]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.33.04:127][840]LogContentValidation: Enabled validators:
+[2025.11.22-17.33.04:127][840]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.33.04:127][840]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.33.04:127][840]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.33.04:127][840]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.33.04:127][840]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.33.04:127][840]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.33.04:128][840]AssetCheck: /Engine/Ball Validating asset
+[2025.11.22-17.33.04:143][840]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.22-17.33.14:310][955]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.33.14:310][955]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Ball] ([1] browsable assets)...
+[2025.11.22-17.33.14:310][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ball]
+[2025.11.22-17.33.14:310][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Ball.uasset" SILENT=true
+[2025.11.22-17.33.14:321][955]LogSavePackage: Moving output files for package: /Game/Ball
+[2025.11.22-17.33.14:321][955]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/Ball6CAD808442544D86F90DFD9DB1E8AB61.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Ball.uasset'
+[2025.11.22-17.33.14:322][955]LogFileHelpers: InternalPromptForCheckoutAndSave took 11.548 ms (total: 196.865 ms)
+[2025.11.22-17.33.14:357][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.11.22-17.33.14:371][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.11.22-17.33.14:383][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.22-17.33.14:418][955]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.11.22-17.33.14:418][955]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.33.14:418][955]LogContentValidation: Enabled validators:
+[2025.11.22-17.33.14:418][955]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.33.14:418][955]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.33.14:418][955]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.33.14:418][955]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.33.14:418][955]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.33.14:418][955]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.33.14:418][955]AssetCheck: /Game/Ball Validating asset
+[2025.11.22-17.33.14:427][955]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.22-17.33.21:769][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.11.22-17.33.22:803][787]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-17.33.22:811][787]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-17.33.22:887][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.22-17.33.22:901][787]LogSavePackage: Moving output files for package: /Game/BuildLevel
+[2025.11.22-17.33.22:902][787]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BuildLevelEC7D510F4C901B0B8356E4AF9B803EE6.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap'
+[2025.11.22-17.33.22:906][787]LogFileHelpers: Saving map 'BuildLevel' took 0.039
+[2025.11.22-17.33.22:913][787]LogFileHelpers: InternalPromptForCheckoutAndSave took 102.261 ms (total: 299.126 ms)
+[2025.11.22-17.33.22:967][787]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-17.33.22:967][787]LogContentValidation: Enabled validators:
+[2025.11.22-17.33.22:967][787]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-17.33.22:967][787]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-17.33.22:967][787]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-17.33.22:967][787]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-17.33.22:967][787]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-17.33.22:967][787]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-17.33.22:967][787]AssetCheck: /Game/BuildLevel Validating asset

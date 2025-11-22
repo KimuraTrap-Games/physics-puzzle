@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap"
+				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/Ball.uasset",
+				"C:/Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Ball.uasset"
 			]
 		}
 	]
