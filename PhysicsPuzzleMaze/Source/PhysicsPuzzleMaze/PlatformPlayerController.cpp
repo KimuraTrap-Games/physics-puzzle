@@ -1,59 +1,68 @@
 #include "PlatformPlayerController.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
-
-APlatformPlayerController::APlatformPlayerController()
-{
-    bShowMouseCursor = false;
-}
+#include "EngineUtils.h"
 
 void APlatformPlayerController::BeginPlay()
 {
     Super::BeginPlay();
 
-    // Get Enhanced Input subsystem
-    UEnhancedInputLocalPlayerSubsystem* Subsystem =
-        ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer());
-
-    if (Subsystem)
+    // Enable Enhanced Input
+    if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer()))
     {
-        // Add your Mapping Context
-        Subsystem->AddMappingContext(IMC_TiltControls, 0);
+        // Add default mapping context if needed
+        if (InputMappingContext)
+        {
+            Subsystem->AddMappingContext(InputMappingContext, 0);
+        }
     }
 
-    // Automatically find the PlatformActor
+    // Find the platform in the level
     for (TActorIterator<APlatformActor> It(GetWorld()); It; ++It)
     {
         PlatformRef = *It;
         break;
     }
+
+    if (!PlatformRef)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("PlatformActor not found!"));
+    }
 }
 
 void APlatformPlayerController::SetupInputComponent()
 {
+    // Call the base class implementation
     Super::SetupInputComponent();
 
-    UEnhancedInputComponent* Input = CastChecked<UEnhancedInputComponent>(InputComponent);
-
-    Input->BindAction(IA_TiltForward, ETriggerEvent::Triggered, this, &APlatformPlayerController::HandleTiltForward);
-    Input->BindAction(IA_TiltForward, ETriggerEvent::Completed, this, &APlatformPlayerController::HandleTiltForward);
-
-    Input->BindAction(IA_TiltRight, ETriggerEvent::Triggered, this, &APlatformPlayerController::HandleTiltRight);
-    Input->BindAction(IA_TiltRight, ETriggerEvent::Completed, this, &APlatformPlayerController::HandleTiltRight);
+    // Enhanced input binding
+    if (UEnhancedInputComponent* EnhancedInput = Cast<UEnhancedInputComponent>(InputComponent))
+    {
+        if (IA_TiltForward)
+        {
+            EnhancedInput->BindAction(IA_TiltForward, ETriggerEvent::Triggered, this, &APlatformPlayerController::TiltForward);
+        }
+        if (IA_TiltRight)
+        {
+            EnhancedInput->BindAction(IA_TiltRight, ETriggerEvent::Triggered, this, &APlatformPlayerController::TiltRight);
+        }
+    }
 }
 
-void APlatformPlayerController::HandleTiltForward(const FInputActionValue& Value)
+void APlatformPlayerController::TiltForward(const FInputActionValue& Value)
 {
-    if (!PlatformRef) return;
-
-    const float Input = Value.Get<float>();
-    PlatformRef->SetTiltInput(Input, PlatformRef->RightInput);
+    if (PlatformRef)
+    {
+        float AxisValue = Value.Get<float>();
+        PlatformRef->SetTiltInput(AxisValue, PlatformRef->RightInput);
+    }
 }
 
-void APlatformPlayerController::HandleTiltRight(const FInputActionValue& Value)
+void APlatformPlayerController::TiltRight(const FInputActionValue& Value)
 {
-    if (!PlatformRef) return;
-
-    const float Input = Value.Get<float>();
-    PlatformRef->SetTiltInput(PlatformRef->ForwardInput, Input);
+    if (PlatformRef)
+    {
+        float AxisValue = Value.Get<float>();
+        PlatformRef->SetTiltInput(PlatformRef->ForwardInput, AxisValue);
+    }
 }

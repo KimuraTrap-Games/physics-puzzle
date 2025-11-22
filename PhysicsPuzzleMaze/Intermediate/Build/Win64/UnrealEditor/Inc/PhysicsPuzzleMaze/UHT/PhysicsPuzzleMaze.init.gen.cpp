@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePhysicsPuzzleMaze_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x4A2C5F88,
+				0x5920C6AB,
 				0xCE4509B9,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodePhysicsPuzzleMaze_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_PhysicsPuzzleMaze.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_PhysicsPuzzleMaze(Z_Construct_UPackage__Script_PhysicsPuzzleMaze, TEXT("/Script/PhysicsPuzzleMaze"), Z_Registration_Info_UPackage__Script_PhysicsPuzzleMaze, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x4A2C5F88, 0xCE4509B9));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_PhysicsPuzzleMaze(Z_Construct_UPackage__Script_PhysicsPuzzleMaze, TEXT("/Script/PhysicsPuzzleMaze"), Z_Registration_Info_UPackage__Script_PhysicsPuzzleMaze, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x5920C6AB, 0xCE4509B9));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

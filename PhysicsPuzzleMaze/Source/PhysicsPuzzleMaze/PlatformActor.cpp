@@ -28,12 +28,12 @@ void APlatformActor::Tick(float DeltaTime)
     CurrentPitch += ForwardInput * TiltSpeed * DeltaTime;
     CurrentRoll += RightInput * TiltSpeed * DeltaTime;
 
-    // Clamp the pitch and roll to the maximum tilt angle
+    // Clamp pitch & roll
     CurrentPitch = FMath::Clamp(CurrentPitch, -MaxTiltAngle, MaxTiltAngle);
     CurrentRoll = FMath::Clamp(CurrentRoll, -MaxTiltAngle, MaxTiltAngle);
 
-    // Apply rotation to the platform mesh
-    FRotator NewRotation = FRotator(CurrentPitch, 0.f, CurrentRoll);
+    // Apply rotation to platform
+    FRotator NewRotation(CurrentPitch, 0.f, CurrentRoll);
     PlatformMesh->SetRelativeRotation(NewRotation);
 }
 

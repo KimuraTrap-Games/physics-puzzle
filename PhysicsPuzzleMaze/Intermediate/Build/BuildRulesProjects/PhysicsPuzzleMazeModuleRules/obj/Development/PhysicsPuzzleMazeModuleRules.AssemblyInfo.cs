@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhysicsPuzzleMazeModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ab1fa5e55ad30e288316dd4b0fba4a167981b86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e098ce64f0d1b59cf47263987fc828ad1fcd8103")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhysicsPuzzleMazeModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhysicsPuzzleMazeModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

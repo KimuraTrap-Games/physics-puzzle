@@ -8,15 +8,15 @@ UCLASS()
 class PHYSICSPUZZLEMAZE_API APlatformActor : public AActor
 {
     GENERATED_BODY()
-    
-public:    
+
+public:
     // Sets default values for this actor's properties
     APlatformActor();
 
 protected:
     virtual void BeginPlay() override;
 
-public:    
+public:
     virtual void Tick(float DeltaTime) override;
 
     // Platform mesh
@@ -24,16 +24,16 @@ public:
     UStaticMeshComponent* PlatformMesh;
 
     // Tilt variables
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Tilt")
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tilt")
     float ForwardInput = 0.f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Tilt")
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tilt")
     float RightInput = 0.f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Tilt")
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tilt")
     float TiltSpeed = 50.f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Tilt")
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tilt")
     float MaxTiltAngle = 15.f;
 
 private:

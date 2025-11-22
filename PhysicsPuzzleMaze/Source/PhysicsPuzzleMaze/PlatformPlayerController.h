@@ -3,7 +3,10 @@
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "PlatformActor.h"
-#include "InputActionValue.h"
+#include "EnhancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
+#include "InputAction.h"
+#include "InputMappingContext.h" // <--- Make sure this include is here
 #include "PlatformPlayerController.generated.h"
 
 UCLASS()
@@ -11,25 +14,25 @@ class PHYSICSPUZZLEMAZE_API APlatformPlayerController : public APlayerController
 {
     GENERATED_BODY()
 
-public:
-    APlatformPlayerController();
-
 protected:
     virtual void BeginPlay() override;
     virtual void SetupInputComponent() override;
 
     // Input Actions
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
-    class UInputAction* IA_TiltForward;
+    UInputAction* IA_TiltForward;
 
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
-    class UInputAction* IA_TiltRight;
+    UInputAction* IA_TiltRight;
 
-    // Reference to the platform
-    UPROPERTY()
+    // Input Mapping Context
+    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
+    UInputMappingContext* InputMappingContext; // <--- Add this
+
+private:
+    // Reference to the platform actor
     APlatformActor* PlatformRef;
 
-    // Input handlers
-    void HandleTiltForward(const FInputActionValue& Value);
-    void HandleTiltRight(const FInputActionValue& Value);
+    void TiltForward(const FInputActionValue& Value);
+    void TiltRight(const FInputActionValue& Value);
 };

@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\scott\\desktop\\gamedevprojects\\physics-puzzle\\physicspuzzlemaze\\intermediate\\build\\win64\\unrealeditor\\inc\\physicspuzzlemaze\\uht\\platformplayercontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\scott\\desktop\\gamedevprojects\\physics-puzzle\\physicspuzzlemaze\\intermediate\\build\\win64\\x64\\physicspuzzlemazeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\scott\\desktop\\gamedevprojects\\physics-puzzle\\physicspuzzlemaze\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\physicspuzzlemaze\\definitions.physicspuzzlemaze.h",
+            "c:\\users\\scott\\desktop\\gamedevprojects\\physics-puzzle\\physicspuzzlemaze\\source\\physicspuzzlemaze\\platformplayercontroller.h",
+            "c:\\users\\scott\\desktop\\gamedevprojects\\physics-puzzle\\physicspuzzlemaze\\source\\physicspuzzlemaze\\platformactor.h",
+            "c:\\users\\scott\\desktop\\gamedevprojects\\physics-puzzle\\physicspuzzlemaze\\intermediate\\build\\win64\\unrealeditor\\inc\\physicspuzzlemaze\\uht\\platformactor.generated.h",
+            "c:\\users\\scott\\desktop\\gamedevprojects\\physics-puzzle\\physicspuzzlemaze\\intermediate\\build\\win64\\unrealeditor\\inc\\physicspuzzlemaze\\uht\\platformplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

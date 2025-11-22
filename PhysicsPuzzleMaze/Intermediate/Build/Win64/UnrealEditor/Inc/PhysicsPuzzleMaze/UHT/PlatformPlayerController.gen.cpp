@@ -14,7 +14,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformPlayerController() {}
 // ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
-PHYSICSPUZZLEMAZE_API UClass* Z_Construct_UClass_APlatformActor_NoRegister();
+ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 PHYSICSPUZZLEMAZE_API UClass* Z_Construct_UClass_APlatformPlayerController();
 PHYSICSPUZZLEMAZE_API UClass* Z_Construct_UClass_APlatformPlayerController_NoRegister();
 UPackage* Z_Construct_UPackage__Script_PhysicsPuzzleMaze();
@@ -75,19 +75,20 @@ struct Z_Construct_UClass_APlatformPlayerController_Statics
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "PlatformPlayerController.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlatformRef_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InputMappingContext_MetaData[] = {
+		{ "Category", "Input" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "// Reference to the platform\n" },
+		{ "Comment", "// Input Mapping Context\n" },
 #endif
 		{ "ModuleRelativePath", "PlatformPlayerController.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Reference to the platform" },
+		{ "ToolTip", "Input Mapping Context" },
 #endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_IA_TiltForward;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_IA_TiltRight;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_PlatformRef;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_InputMappingContext;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -97,11 +98,11 @@ struct Z_Construct_UClass_APlatformPlayerController_Statics
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlatformPlayerController_Statics::NewProp_IA_TiltForward = { "IA_TiltForward", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlatformPlayerController, IA_TiltForward), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_IA_TiltForward_MetaData), NewProp_IA_TiltForward_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlatformPlayerController_Statics::NewProp_IA_TiltRight = { "IA_TiltRight", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlatformPlayerController, IA_TiltRight), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_IA_TiltRight_MetaData), NewProp_IA_TiltRight_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlatformPlayerController_Statics::NewProp_PlatformRef = { "PlatformRef", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlatformPlayerController, PlatformRef), Z_Construct_UClass_APlatformActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlatformRef_MetaData), NewProp_PlatformRef_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlatformPlayerController_Statics::NewProp_InputMappingContext = { "InputMappingContext", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlatformPlayerController, InputMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InputMappingContext_MetaData), NewProp_InputMappingContext_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlatformPlayerController_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformPlayerController_Statics::NewProp_IA_TiltForward,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformPlayerController_Statics::NewProp_IA_TiltRight,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformPlayerController_Statics::NewProp_PlatformRef,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformPlayerController_Statics::NewProp_InputMappingContext,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APlatformPlayerController_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_APlatformPlayerController_Statics::DependentSingletons[])() = {
@@ -132,6 +133,7 @@ UClass* Z_Construct_UClass_APlatformPlayerController()
 	}
 	return Z_Registration_Info_UClass_APlatformPlayerController.OuterSingleton;
 }
+APlatformPlayerController::APlatformPlayerController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(APlatformPlayerController);
 APlatformPlayerController::~APlatformPlayerController() {}
 // ********** End Class APlatformPlayerController **************************************************
@@ -140,10 +142,10 @@ APlatformPlayerController::~APlatformPlayerController() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_GameDevProjects_physics_puzzle_PhysicsPuzzleMaze_Source_PhysicsPuzzleMaze_PlatformPlayerController_h__Script_PhysicsPuzzleMaze_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APlatformPlayerController, APlatformPlayerController::StaticClass, TEXT("APlatformPlayerController"), &Z_Registration_Info_UClass_APlatformPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlatformPlayerController), 4046111278U) },
+		{ Z_Construct_UClass_APlatformPlayerController, APlatformPlayerController::StaticClass, TEXT("APlatformPlayerController"), &Z_Registration_Info_UClass_APlatformPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlatformPlayerController), 82768910U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GameDevProjects_physics_puzzle_PhysicsPuzzleMaze_Source_PhysicsPuzzleMaze_PlatformPlayerController_h__Script_PhysicsPuzzleMaze_392600391(TEXT("/Script/PhysicsPuzzleMaze"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GameDevProjects_physics_puzzle_PhysicsPuzzleMaze_Source_PhysicsPuzzleMaze_PlatformPlayerController_h__Script_PhysicsPuzzleMaze_1227204453(TEXT("/Script/PhysicsPuzzleMaze"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_GameDevProjects_physics_puzzle_PhysicsPuzzleMaze_Source_PhysicsPuzzleMaze_PlatformPlayerController_h__Script_PhysicsPuzzleMaze_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_GameDevProjects_physics_puzzle_PhysicsPuzzleMaze_Source_PhysicsPuzzleMaze_PlatformPlayerController_h__Script_PhysicsPuzzleMaze_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
