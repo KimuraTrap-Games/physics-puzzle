@@ -2,7 +2,6 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
-#include "GameFramework/PlayerController.h"
 
 // Sets default values
 ABallActor::ABallActor()
@@ -11,36 +10,30 @@ ABallActor::ABallActor()
 
     AutoPossessPlayer = EAutoReceiveInput::Player0;
 
-    // Create a SceneComponent root
+    // Root Component
     USceneComponent* SceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
     RootComponent = SceneRoot;
 
-    // Create BallMesh
+    // Ball Mesh
     BallMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BallMesh"));
     BallMesh->SetupAttachment(RootComponent);
     BallMesh->SetSimulatePhysics(true);
     BallMesh->SetEnableGravity(true);
     BallMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 
-    // Create SpringArm
+    // Spring Arm
     SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
     SpringArm->SetupAttachment(RootComponent);
-    SpringArm->TargetArmLength = 2000.0f;
-    SpringArm->SetRelativeRotation(FRotator(-70.0f, 0.0f, 0.0f));
-    SpringArm->bDoCollisionTest = false;
+    SpringArm->TargetArmLength = 1500.0f;             // Height above the ball
+    SpringArm->SetRelativeRotation(FRotator(-90.0f, 0.0f, 0.0f)); // Straight down
+    SpringArm->bDoCollisionTest = false;             // Ignore collisions
+    SpringArm->bEnableCameraLag = false;             // Optional: disable lag for top-down
 
-    // Enable camera lag
-    SpringArm->bEnableCameraLag = true;
-    SpringArm->CameraLagSpeed = 5.0f;
-    SpringArm->bEnableCameraRotationLag = true;
-    SpringArm->CameraRotationLagSpeed = 10.0f;
-
-    // Create Camera
+    // Camera
     Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
     Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
     Camera->bUsePawnControlRotation = false;
 }
-
 
 // Called when the game starts or when spawned
 void ABallActor::BeginPlay()

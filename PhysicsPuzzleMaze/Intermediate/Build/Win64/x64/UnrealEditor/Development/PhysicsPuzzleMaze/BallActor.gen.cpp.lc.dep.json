@@ -7,10 +7,6 @@
         "Includes": [
             "c:\\users\\scott\\desktop\\gamedevprojects\\physics-puzzle\\physicspuzzlemaze\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\physicspuzzlemaze\\definitions.physicspuzzlemaze.h",
             "c:\\users\\scott\\desktop\\gamedevprojects\\physics-puzzle\\physicspuzzlemaze\\source\\physicspuzzlemaze\\ballactor.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\springarmcomponent.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\springarmcomponent.generated.h",
             "c:\\users\\scott\\desktop\\gamedevprojects\\physics-puzzle\\physicspuzzlemaze\\intermediate\\build\\win64\\unrealeditor\\inc\\physicspuzzlemaze\\uht\\ballactor.generated.h"
         ],
         "ImportedModules": [],
