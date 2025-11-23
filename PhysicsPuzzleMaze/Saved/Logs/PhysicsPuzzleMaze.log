@@ -3417,3 +3417,382 @@ Detoured run took 721ms
 [2025.11.23-22.24.57:629][190]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.23-22.24.57:629][190]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.23-22.24.57:629][190]AssetCheck: /Game/BuildLevel Validating asset
+[2025.11.23-22.28.17:172][980]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6967.181641
+[2025.11.23-22.28.18:173][983]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.23-22.28.18:173][983]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6967.848633, Update Interval: 341.919617
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 1 (upload completely sent off: 439 bytes)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 2 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 3 (shutting down connection #34)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 5 (necessary data rewind was not possible)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 6 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B060FA5D9-4D93-7357-BA3C-94887B95C33D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 8 (necessary data rewind was not possible)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 9 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 10 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 11 (IPv6: (none))
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 12 (IPv4: 35.171.65.104, 44.221.28.67, 44.197.97.101, 98.89.10.108, 34.199.106.135, 98.83.2.84, 34.196.222.125, 3.91.125.159)
+[2025.11.23-22.29.11:182][142]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 13 (  Trying 35.171.65.104:443...)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 14 (SSL reusing session)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 15 (ALPN: curl offers http/1.1)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2025.11.23-22.29.11:182][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 26 (Server certificate:)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 28 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 29 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 33 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 34 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 35 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 36 (Connected to datarouter.ol.epicgames.com (35.171.65.104) port 443)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 37 (using HTTP/1.x)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 38 (client read function EOF fail, only 0/439 of needed bytes read)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800: libcurl info message cache 39 (closing connection #35)
+[2025.11.23-22.29.11:183][143]LogHttp: Warning: 000001F3EBF3A800 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B060FA5D9-4D93-7357-BA3C-94887B95C33D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.50s
+[2025.11.23-22.33.10:629][640]LogHttp: Warning: 000001F23D7B3100: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2025.11.23-22.33.10:629][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 1 (upload completely sent off: 440 bytes)
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 2 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 3 (shutting down connection #36)
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 5 (necessary data rewind was not possible)
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 6 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B060FA5D9-4D93-7357-BA3C-94887B95C33D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 8 (necessary data rewind was not possible)
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 9 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 10 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 11 (IPv6: (none))
+[2025.11.23-22.33.10:630][640]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 12 (IPv4: 52.87.21.98, 34.238.144.204, 52.70.4.155, 44.198.89.191, 3.210.120.5, 52.45.128.185, 54.88.83.186, 3.94.157.94)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 13 (  Trying 52.87.21.98:443...)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 14 (SSL reusing session)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 15 (ALPN: curl offers http/1.1)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 26 (Server certificate:)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 28 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 29 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 33 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 34 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 35 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 36 (Connected to datarouter.ol.epicgames.com (52.87.21.98) port 443)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 37 (using HTTP/1.x)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 38 (client read function EOF fail, only 0/440 of needed bytes read)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100: libcurl info message cache 39 (closing connection #37)
+[2025.11.23-22.33.10:630][641]LogHttp: Warning: 000001F23D7B3100 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B060FA5D9-4D93-7357-BA3C-94887B95C33D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.25s
+[2025.11.23-22.33.25:862][358]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-22.33.25:870][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-22.33.25:870][358]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.33.25:873][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002937s)
+[2025.11.23-22.33.25:873][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002968s)
+[2025.11.23-22.33.25:896][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.11.23-22.33.25:906][358]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-22.33.25:907][358]LogPlayLevel: PIE: World Init took: (0.001709s)
+[2025.11.23-22.33.25:908][358]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.11.23-22.33.25:908][358]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-22.33.25:908][358]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-22.33.25:908][358]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-22.33.25:908][358]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-22.33.25:908][358]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-22.33.25:908][358]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-22.33.25:908][358]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-22.33.25:908][358]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-22.33.25:908][358]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-22.33.25:908][358]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-22.33.25:908][358]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-22.33.25:910][358]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-22.33.25:931][358]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-22.33.25:931][358]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-22.33.25:931][358]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-22.33.25:931][358]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-22.33.25:932][358]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.11.23-22.33.25:932][358]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.11.23-22.33.25:934][358]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.11.23-22.33.25:934][358]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.11.23-22.33.25:934][358]LogInit: FAudioDevice initialized with ID 21.
+[2025.11.23-22.33.25:934][358]LogAudio: Display: Audio Device (ID: 21) registered with world 'BuildLevel'.
+[2025.11.23-22.33.25:934][358]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.11.23-22.33.25:938][358]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-22.33.25:939][358]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.23-16.33.25
+[2025.11.23-22.33.25:939][358]LogWorld: Bringing up level for play took: 0.001349
+[2025.11.23-22.33.25:941][358]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.11.23-22.33.25:942][358]LogCameraSystem: Creating camera system host for gameplay camera 'PlatformActor_1'.
+[2025.11.23-22.33.25:942][358]LogScript: Error: Script Msg: Can't activate gameplay camera component: no camera asset was set!
+[2025.11.23-22.33.25:942][358]LogScript: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2025.11.23-22.33.25:943][358]PIE: Server logged in
+[2025.11.23-22.33.25:944][358]PIE: Play in editor total start time 0.075 seconds.
+[2025.11.23-22.33.25:946][358]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.33.25:946][358]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.33.25:946][358]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.33.25:946][358]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.33.26:000][359]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-22.33.32:059][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.33.32:059][ 75]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.33.32:059][ 75]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-22.33.32:060][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.33.32:062][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-22.33.32:067][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.33.32:087][ 75]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.23-22.33.32:087][ 75]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.11.23-22.33.32:087][ 75]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=4
+[2025.11.23-22.33.32:089][ 75]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=2
+[2025.11.23-22.33.32:092][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.33.32:094][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.11.23-22.33.32:224][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.11.23-22.33.57:452][  9]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-22.33.57:459][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-22.33.57:490][  9]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.33.57:493][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002832s)
+[2025.11.23-22.33.57:493][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002868s)
+[2025.11.23-22.33.57:514][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.23-22.33.57:516][  9]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-22.33.57:517][  9]LogPlayLevel: PIE: World Init took: (0.001337s)
+[2025.11.23-22.33.57:519][  9]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.11.23-22.33.57:519][  9]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-22.33.57:519][  9]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-22.33.57:519][  9]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-22.33.57:519][  9]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-22.33.57:519][  9]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-22.33.57:519][  9]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-22.33.57:519][  9]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-22.33.57:519][  9]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-22.33.57:519][  9]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-22.33.57:519][  9]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-22.33.57:519][  9]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-22.33.57:521][  9]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-22.33.57:541][  9]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-22.33.57:541][  9]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-22.33.57:541][  9]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-22.33.57:541][  9]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-22.33.57:541][  9]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.11.23-22.33.57:541][  9]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2025.11.23-22.33.57:544][  9]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.11.23-22.33.57:544][  9]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.11.23-22.33.57:544][  9]LogInit: FAudioDevice initialized with ID 22.
+[2025.11.23-22.33.57:544][  9]LogAudio: Display: Audio Device (ID: 22) registered with world 'BuildLevel'.
+[2025.11.23-22.33.57:544][  9]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.11.23-22.33.57:548][  9]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-22.33.57:549][  9]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.23-16.33.57
+[2025.11.23-22.33.57:549][  9]LogWorld: Bringing up level for play took: 0.001400
+[2025.11.23-22.33.57:551][  9]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.11.23-22.33.57:551][  9]LogCameraSystem: Creating camera system host for gameplay camera 'PlatformActor_1'.
+[2025.11.23-22.33.57:551][  9]LogScript: Error: Script Msg: Can't activate gameplay camera component: no camera asset was set!
+[2025.11.23-22.33.57:551][  9]LogScript: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2025.11.23-22.33.57:552][  9]PIE: Server logged in
+[2025.11.23-22.33.57:554][  9]PIE: Play in editor total start time 0.096 seconds.
+[2025.11.23-22.33.57:556][  9]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.33.57:556][  9]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.33.57:556][  9]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.33.57:556][  9]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.33.57:611][  9]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-22.34.08:774][343]LogDerivedDataCache: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.23-22.34.12:030][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.34.12:030][730]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.34.12:030][730]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-22.34.12:031][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.34.12:033][730]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-22.34.12:037][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.34.12:056][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.34.12:056][730]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.11.23-22.34.12:056][730]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=4
+[2025.11.23-22.34.12:057][730]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=2
+[2025.11.23-22.34.12:064][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.23-22.34.12:194][731]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.11.23-22.34.17:885][398]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-22.34.17:893][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-22.34.17:931][398]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.34.17:933][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002745s)
+[2025.11.23-22.34.17:933][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002786s)
+[2025.11.23-22.34.17:953][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-22.34.17:955][398]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-22.34.17:955][398]LogPlayLevel: PIE: World Init took: (0.001369s)
+[2025.11.23-22.34.17:956][398]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.11.23-22.34.17:956][398]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-22.34.17:956][398]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-22.34.17:956][398]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-22.34.17:956][398]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-22.34.17:956][398]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-22.34.17:956][398]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-22.34.17:956][398]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-22.34.17:956][398]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-22.34.17:956][398]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-22.34.17:956][398]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-22.34.17:956][398]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-22.34.17:959][398]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-22.34.17:976][398]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-22.34.17:976][398]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-22.34.17:977][398]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-22.34.17:977][398]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-22.34.17:977][398]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.11.23-22.34.17:977][398]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2025.11.23-22.34.17:980][398]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.11.23-22.34.17:980][398]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2025.11.23-22.34.17:980][398]LogInit: FAudioDevice initialized with ID 23.
+[2025.11.23-22.34.17:980][398]LogAudio: Display: Audio Device (ID: 23) registered with world 'BuildLevel'.
+[2025.11.23-22.34.17:980][398]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.11.23-22.34.17:984][398]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-22.34.17:985][398]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.23-16.34.17
+[2025.11.23-22.34.17:985][398]LogWorld: Bringing up level for play took: 0.001277
+[2025.11.23-22.34.17:986][398]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.11.23-22.34.17:987][398]LogCameraSystem: Creating camera system host for gameplay camera 'PlatformActor_1'.
+[2025.11.23-22.34.17:987][398]LogScript: Error: Script Msg: Can't activate gameplay camera component: no camera asset was set!
+[2025.11.23-22.34.17:987][398]LogScript: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2025.11.23-22.34.17:989][398]PIE: Server logged in
+[2025.11.23-22.34.17:990][398]PIE: Play in editor total start time 0.098 seconds.
+[2025.11.23-22.34.17:993][398]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.34.17:993][398]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.34.17:993][398]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.34.17:993][398]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.34.18:045][398]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-22.34.28:890][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.34.28:890][689]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.34.28:890][689]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-22.34.28:890][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.34.28:893][689]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-22.34.28:897][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.34.28:918][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.34.28:918][689]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.11.23-22.34.28:918][689]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2025.11.23-22.34.28:920][689]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2025.11.23-22.34.28:925][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.23-22.34.29:057][690]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.11.23-22.34.33:762][212]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7343.783691
+[2025.11.23-22.34.33:855][222]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.23-22.34.33:855][222]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7343.868164, Update Interval: 326.113464
+[2025.11.23-22.34.54:476][508]LogStreaming: Display: FlushAsyncLoading(529): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: ================================================
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Total job queries 492, among them cache hits 55 (11.18%), DDC hits 370 (75.20%), Duplicates 61 (12.40%)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Tracking 376 distinct input hashes that result in 271 distinct outputs (72.07%)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: RAM used: 3.43 MiB of 3.20 GiB budget. Usage: 0.10%
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Shaders Compiled: 6
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Average time worker was idle: 0.31 s
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.07 s
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Job execution time: average 0.68 s, max 1.11 s
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Job life time (pending + execution): average 0.73 s, max 1.12
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Shader code size: total 58.598 KiB, numShaders 7, average 8.371 KiB, min 3.777 KiB, max 11.922 KiB
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.59 s
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Average processing rate: 2.31 jobs/sec
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Total thread time: 3.396 s
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Total thread preprocess time: 5.765 s
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Percentage time preprocessing: 169.74%
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Effective parallelization: 1.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.081833
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.43 sec, max 0.49 sec, min 0.38 sec)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 25.80% of total time (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.51% of total time (compiled    2 times, average 0.43 sec, max 0.49 sec, min 0.38 sec)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 19.74% of total time (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display:                                                  FVelocityPS - 14.79% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display:                                                  FVelocityVS - 7.91% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: === Material stats ===
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Materials Translated:    141
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Material Translation Only: 0.03 s (37%)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: Material Cache Hits: 37 (26%)
+[2025.11.23-22.35.14:519][824]LogShaderCompilers: Display: ================================================
+[2025.11.23-22.35.31:524][643]LogStreaming: Display: FlushAsyncLoading(530): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 1 (upload completely sent off: 435 bytes)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 2 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 3 (shutting down connection #38)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 5 (necessary data rewind was not possible)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 6 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B060FA5D9-4D93-7357-BA3C-94887B95C33D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 8 (necessary data rewind was not possible)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 9 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 10 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 11 (IPv6: (none))
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 12 (IPv4: 44.206.25.235, 34.205.213.75, 44.193.107.113, 34.195.56.51, 35.168.221.237, 35.171.170.177, 3.217.185.213, 3.223.165.19)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 13 (  Trying 44.206.25.235:443...)
+[2025.11.23-22.36.10:605][439]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 14 (SSL reusing session)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 15 (ALPN: curl offers http/1.1)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 26 (Server certificate:)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 28 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 29 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 33 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 34 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 35 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 36 (Connected to datarouter.ol.epicgames.com (44.206.25.235) port 443)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 37 (using HTTP/1.x)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 38 (client read function EOF fail, only 0/435 of needed bytes read)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600: libcurl info message cache 39 (closing connection #39)
+[2025.11.23-22.36.10:605][440]LogHttp: Warning: 000001F23D66B600 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B060FA5D9-4D93-7357-BA3C-94887B95C33D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.20s
+[2025.11.23-22.36.17:131][896]LogStreaming: Display: FlushAsyncLoading(531): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.23-22.37.12:173][425]LogStreaming: Display: FlushAsyncLoading(532): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.23-22.37.18:386][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.23-22.37.19:321][113]LogSlate: Window 'Save Content' being destroyed
+[2025.11.23-22.37.19:346][113]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-22.37.19:444][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.11.23-22.37.19:461][113]LogSavePackage: Moving output files for package: /Game/BuildLevel
+[2025.11.23-22.37.19:461][113]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BuildLevelD0AD9FF74B66211DFB47C998493BC9CB.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap'
+[2025.11.23-22.37.19:471][113]LogFileHelpers: Saving map 'BuildLevel' took 0.070
+[2025.11.23-22.37.19:483][113]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.143 ms (total: 2.34 sec)
+[2025.11.23-22.37.19:536][113]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-22.37.19:536][113]LogContentValidation: Enabled validators:
+[2025.11.23-22.37.19:536][113]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-22.37.19:536][113]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-22.37.19:536][113]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-22.37.19:536][113]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-22.37.19:536][113]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-22.37.19:536][113]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-22.37.19:536][113]AssetCheck: /Game/BuildLevel Validating asset
