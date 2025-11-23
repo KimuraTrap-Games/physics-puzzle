@@ -1,51 +1,51 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "BallActor.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "GameFramework/PlayerController.h"
 
 // Sets default values
 ABallActor::ABallActor()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+    PrimaryActorTick.bCanEverTick = true;
 
-	// Create ball mesh
-	BallMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BallMesh"));
-	RootComponent = BallMesh;
-	BallMesh->SetSimulatePhysics(true);
-	BallMesh->SetEnableGravity(true);
-	BallMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+    // Enable player control
+    AutoPossessPlayer = EAutoReceiveInput::Player0;
 
-	// Create SpringArmComponent
-	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
-	SpringArm->SetupAttachment(RootComponent);
-	SpringArm->TargetArmLength = 2000.0f; // Height above the ball
-	SpringArm->bDoCollisionTest = false;
-	SpringArm->SetRelativeRotation(FRotator(-60.0f, 0.0f, 0.0f)); // Angle the camera downwards at an angle
+    // Create ball mesh
+    BallMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BallMesh"));
+    RootComponent = BallMesh;
+    BallMesh->SetSimulatePhysics(true);
+    BallMesh->SetEnableGravity(true);
+    BallMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 
-	// Create CameraComponent
-	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
-	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
-	Camera->bUsePawnControlRotation = false; // We don't want the camera to rotate based on controller input
+    // Create SpringArm
+    SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
+    SpringArm->SetupAttachment(RootComponent);
+    SpringArm->TargetArmLength = 1200.0f;
+    SpringArm->SetRelativeRotation(FRotator(-60.0f, 0.0f, 0.0f));
+    SpringArm->bDoCollisionTest = false;
 
+    // Enable camera lag for smooth follow
+    SpringArm->bEnableCameraLag = true;
+    SpringArm->CameraLagSpeed = 5.0f;
+    SpringArm->bEnableCameraRotationLag = true;
+    SpringArm->CameraRotationLagSpeed = 10.0f;
+
+    // Create camera
+    Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+    Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+    Camera->bUsePawnControlRotation = false;
 }
 
 // Called when the game starts or when spawned
 void ABallActor::BeginPlay()
 {
-	Super::BeginPlay();
-	
+    Super::BeginPlay();
 }
 
 // Called every frame
 void ABallActor::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
-
-	// Smoothly follow the ball with the camera (not needed if using SpringArmComponent)
-
+    Super::Tick(DeltaTime);
 }
-

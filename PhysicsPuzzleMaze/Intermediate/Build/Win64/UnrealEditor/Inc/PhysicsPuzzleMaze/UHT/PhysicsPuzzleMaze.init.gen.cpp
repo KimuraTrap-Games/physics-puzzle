@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodePhysicsPuzzleMaze_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x2729613C,
-				0x5F1A3013,
+				0x495D723A,
+				0xAA422170,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_PhysicsPuzzleMaze.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_PhysicsPuzzleMaze.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_PhysicsPuzzleMaze(Z_Construct_UPackage__Script_PhysicsPuzzleMaze, TEXT("/Script/PhysicsPuzzleMaze"), Z_Registration_Info_UPackage__Script_PhysicsPuzzleMaze, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x2729613C, 0x5F1A3013));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_PhysicsPuzzleMaze(Z_Construct_UPackage__Script_PhysicsPuzzleMaze, TEXT("/Script/PhysicsPuzzleMaze"), Z_Registration_Info_UPackage__Script_PhysicsPuzzleMaze, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x495D723A, 0xAA422170));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
