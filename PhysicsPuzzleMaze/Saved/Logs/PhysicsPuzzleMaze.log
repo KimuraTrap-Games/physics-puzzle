@@ -2839,3 +2839,581 @@ Detoured run took 721ms
 [2025.11.23-22.04.24:401][227]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.23-22.04.24:401][227]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.23-22.04.24:401][227]AssetCheck: /Game/BuildLevel Validating asset
+[2025.11.23-22.08.24:585][ 85]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-22.08.24:592][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-22.08.24:592][ 85]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.08.24:595][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002299s)
+[2025.11.23-22.08.24:595][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002331s)
+[2025.11.23-22.08.24:616][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.11.23-22.08.24:620][ 85]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-22.08.24:622][ 85]LogPlayLevel: PIE: World Init took: (0.001503s)
+[2025.11.23-22.08.24:623][ 85]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.11.23-22.08.24:623][ 85]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-22.08.24:623][ 85]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-22.08.24:623][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-22.08.24:623][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-22.08.24:623][ 85]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-22.08.24:623][ 85]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-22.08.24:623][ 85]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-22.08.24:623][ 85]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-22.08.24:623][ 85]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-22.08.24:623][ 85]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-22.08.24:623][ 85]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-22.08.24:625][ 85]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-22.08.24:639][ 85]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-22.08.24:639][ 85]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-22.08.24:639][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-22.08.24:639][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-22.08.24:640][ 85]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.11.23-22.08.24:640][ 85]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.11.23-22.08.24:642][ 85]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.11.23-22.08.24:642][ 85]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.11.23-22.08.24:642][ 85]LogInit: FAudioDevice initialized with ID 14.
+[2025.11.23-22.08.24:643][ 85]LogAudio: Display: Audio Device (ID: 14) registered with world 'BuildLevel'.
+[2025.11.23-22.08.24:643][ 85]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.11.23-22.08.24:646][ 85]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-22.08.24:647][ 85]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.23-16.08.24
+[2025.11.23-22.08.24:647][ 85]LogWorld: Bringing up level for play took: 0.000869
+[2025.11.23-22.08.24:649][ 85]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.11.23-22.08.24:651][ 85]PIE: Server logged in
+[2025.11.23-22.08.24:652][ 85]PIE: Play in editor total start time 0.06 seconds.
+[2025.11.23-22.08.24:654][ 85]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.08.24:654][ 85]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.08.24:654][ 85]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.08.24:654][ 85]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.08.24:707][ 86]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-22.08.41:070][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.08.41:070][ 37]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.08.41:070][ 37]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-22.08.41:071][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.08.41:073][ 37]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-22.08.41:078][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.08.41:098][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.08.41:098][ 37]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.11.23-22.08.41:098][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2025.11.23-22.08.41:099][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2025.11.23-22.08.41:104][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.23-22.08.41:155][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.11.23-22.09.37:629][872]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5847.580078
+[2025.11.23-22.09.38:629][875]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.23-22.09.38:629][875]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5848.247070, Update Interval: 332.423462
+[2025.11.23-22.10.08:653][237]Cmd: TRANSACTION UNDO
+[2025.11.23-22.10.08:653][237]LogEditorTransaction: Undo Move Elements
+[2025.11.23-22.12.19:972][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.11.23-22.12.20:980][343]LogSlate: Window 'Save Content' being destroyed
+[2025.11.23-22.12.21:017][343]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-22.12.21:104][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.11.23-22.12.21:119][343]LogSavePackage: Moving output files for package: /Game/BuildLevel
+[2025.11.23-22.12.21:119][343]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BuildLevel18EA63EB4B06BAE14758B19C6321DA44.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap'
+[2025.11.23-22.12.21:130][343]LogFileHelpers: Saving map 'BuildLevel' took 0.067
+[2025.11.23-22.12.21:137][343]LogFileHelpers: InternalPromptForCheckoutAndSave took 120.167 ms (total: 1.56 sec)
+[2025.11.23-22.12.21:213][343]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-22.12.21:213][343]LogContentValidation: Enabled validators:
+[2025.11.23-22.12.21:213][343]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-22.12.21:213][343]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-22.12.21:213][343]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-22.12.21:213][343]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-22.12.21:213][343]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-22.12.21:213][343]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-22.12.21:213][343]AssetCheck: /Game/BuildLevel Validating asset
+[2025.11.23-22.13.33:141][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.23-22.13.33:690][478]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-22.13.33:739][478]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.23-22.13.33:744][478]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_BallActor.BP_BallActor]
+[2025.11.23-22.13.33:744][478]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.23-22.13.33:744][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.23-22.13.33:755][478]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.23-22.13.33:755][478]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActor141B6C4546C1B2F89C5C37BA3FF00222.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.23-22.13.33:768][478]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.324 ms (total: 1.64 sec)
+[2025.11.23-22.13.33:823][478]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-22.13.33:823][478]LogContentValidation: Enabled validators:
+[2025.11.23-22.13.33:823][478]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-22.13.33:823][478]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-22.13.33:823][478]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-22.13.33:823][478]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-22.13.33:823][478]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-22.13.33:823][478]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-22.13.33:823][478]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.23-22.13.50:754][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.23-22.13.51:765][549]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-22.13.51:819][549]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.23-22.13.51:826][549]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_BallActor.BP_BallActor]
+[2025.11.23-22.13.51:826][549]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.23-22.13.51:826][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.23-22.13.51:837][549]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.23-22.13.51:838][549]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActorDE44F2A849B434B29F9A8DB6B41912D2.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.23-22.13.51:847][549]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.656 ms (total: 1.72 sec)
+[2025.11.23-22.13.51:904][549]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-22.13.51:904][549]LogContentValidation: Enabled validators:
+[2025.11.23-22.13.51:904][549]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-22.13.51:904][549]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-22.13.51:904][549]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-22.13.51:904][549]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-22.13.51:904][549]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-22.13.51:904][549]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-22.13.51:904][549]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.23-22.13.55:492][975]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-22.13.55:499][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-22.13.55:526][975]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.13.55:528][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002301s)
+[2025.11.23-22.13.55:528][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002340s)
+[2025.11.23-22.13.55:550][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-22.13.55:554][975]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-22.13.55:556][975]LogPlayLevel: PIE: World Init took: (0.001473s)
+[2025.11.23-22.13.55:556][975]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.11.23-22.13.55:556][975]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-22.13.55:556][975]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-22.13.55:556][975]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-22.13.55:556][975]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-22.13.55:556][975]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-22.13.55:556][975]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-22.13.55:556][975]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-22.13.55:556][975]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-22.13.55:556][975]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-22.13.55:556][975]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-22.13.55:556][975]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-22.13.55:558][975]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-22.13.55:577][975]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-22.13.55:577][975]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-22.13.55:577][975]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-22.13.55:577][975]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-22.13.55:578][975]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.11.23-22.13.55:578][975]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.11.23-22.13.55:580][975]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.11.23-22.13.55:580][975]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.11.23-22.13.55:580][975]LogInit: FAudioDevice initialized with ID 15.
+[2025.11.23-22.13.55:580][975]LogAudio: Display: Audio Device (ID: 15) registered with world 'BuildLevel'.
+[2025.11.23-22.13.55:580][975]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.11.23-22.13.55:584][975]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-22.13.55:585][975]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.23-16.13.55
+[2025.11.23-22.13.55:585][975]LogWorld: Bringing up level for play took: 0.000978
+[2025.11.23-22.13.55:587][975]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2025.11.23-22.13.55:589][975]PIE: Server logged in
+[2025.11.23-22.13.55:590][975]PIE: Play in editor total start time 0.091 seconds.
+[2025.11.23-22.13.55:592][975]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.13.55:592][975]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.13.55:592][975]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.13.55:592][975]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.13.55:645][976]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-22.14.06:866][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.14.06:866][312]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.14.06:866][312]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-22.14.06:867][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.14.06:869][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-22.14.06:874][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.14.06:892][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.14.06:893][312]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.11.23-22.14.06:893][312]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2025.11.23-22.14.06:894][312]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2025.11.23-22.14.06:899][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-22.14.06:954][313]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.11.23-22.15.59:795][649]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6229.764160
+[2025.11.23-22.15.59:904][662]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.23-22.15.59:904][662]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6229.864746, Update Interval: 349.613953
+[2025.11.23-22.18.06:253][632]LogCameraSystem: Creating camera system host for gameplay camera 'PlatformActor_1'.
+[2025.11.23-22.19.05:171][471]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-22.19.05:180][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-22.19.05:202][471]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.19.05:205][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002861s)
+[2025.11.23-22.19.05:205][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002911s)
+[2025.11.23-22.19.05:228][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.11.23-22.19.05:238][471]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-22.19.05:240][471]LogPlayLevel: PIE: World Init took: (0.001653s)
+[2025.11.23-22.19.05:240][471]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.11.23-22.19.05:240][471]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-22.19.05:240][471]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-22.19.05:240][471]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-22.19.05:240][471]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-22.19.05:240][471]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-22.19.05:240][471]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-22.19.05:240][471]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-22.19.05:240][471]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-22.19.05:240][471]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-22.19.05:240][471]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-22.19.05:240][471]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-22.19.05:242][471]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-22.19.05:262][471]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-22.19.05:262][471]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-22.19.05:262][471]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-22.19.05:262][471]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-22.19.05:263][471]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.11.23-22.19.05:263][471]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.11.23-22.19.05:265][471]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.11.23-22.19.05:265][471]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.11.23-22.19.05:265][471]LogInit: FAudioDevice initialized with ID 16.
+[2025.11.23-22.19.05:265][471]LogAudio: Display: Audio Device (ID: 16) registered with world 'BuildLevel'.
+[2025.11.23-22.19.05:265][471]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.11.23-22.19.05:269][471]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-22.19.05:270][471]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.23-16.19.05
+[2025.11.23-22.19.05:270][471]LogWorld: Bringing up level for play took: 0.001103
+[2025.11.23-22.19.05:273][471]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.11.23-22.19.05:274][471]LogCameraSystem: Creating camera system host for gameplay camera 'PlatformActor_1'.
+[2025.11.23-22.19.05:274][471]LogScript: Error: Script Msg: Can't activate gameplay camera component: no camera asset was set!
+[2025.11.23-22.19.05:274][471]LogScript: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2025.11.23-22.19.05:275][471]PIE: Server logged in
+[2025.11.23-22.19.05:276][471]PIE: Play in editor total start time 0.097 seconds.
+[2025.11.23-22.19.05:278][471]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.19.05:278][471]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.19.05:278][471]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.19.05:278][471]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.19.05:332][471]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-22.19.16:912][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.19.16:912][852]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.19.16:912][852]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-22.19.16:913][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.19.16:915][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-22.19.16:920][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.19.16:938][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.19.16:938][852]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.11.23-22.19.16:938][852]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=4
+[2025.11.23-22.19.16:940][852]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
+[2025.11.23-22.19.16:945][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.23-22.19.17:001][853]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.11.23-22.19.30:558][441]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-22.19.30:566][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-22.19.30:592][441]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.19.30:595][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002471s)
+[2025.11.23-22.19.30:595][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002506s)
+[2025.11.23-22.19.30:615][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-22.19.30:617][441]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-22.19.30:619][441]LogPlayLevel: PIE: World Init took: (0.001365s)
+[2025.11.23-22.19.30:619][441]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.11.23-22.19.30:619][441]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-22.19.30:619][441]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-22.19.30:619][441]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-22.19.30:619][441]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-22.19.30:619][441]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-22.19.30:619][441]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-22.19.30:619][441]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-22.19.30:619][441]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-22.19.30:619][441]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-22.19.30:620][441]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-22.19.30:620][441]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-22.19.30:622][441]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-22.19.30:641][441]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-22.19.30:641][441]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-22.19.30:641][441]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-22.19.30:641][441]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-22.19.30:641][441]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.11.23-22.19.30:641][441]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.11.23-22.19.30:643][441]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.11.23-22.19.30:643][441]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.11.23-22.19.30:643][441]LogInit: FAudioDevice initialized with ID 17.
+[2025.11.23-22.19.30:643][441]LogAudio: Display: Audio Device (ID: 17) registered with world 'BuildLevel'.
+[2025.11.23-22.19.30:643][441]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.11.23-22.19.30:647][441]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-22.19.30:648][441]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.23-16.19.30
+[2025.11.23-22.19.30:648][441]LogWorld: Bringing up level for play took: 0.001092
+[2025.11.23-22.19.30:651][441]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.11.23-22.19.30:651][441]LogCameraSystem: Creating camera system host for gameplay camera 'PlatformActor_1'.
+[2025.11.23-22.19.30:651][441]LogScript: Error: Script Msg: Can't activate gameplay camera component: no camera asset was set!
+[2025.11.23-22.19.30:651][441]LogScript: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2025.11.23-22.19.30:652][441]PIE: Server logged in
+[2025.11.23-22.19.30:654][441]PIE: Play in editor total start time 0.088 seconds.
+[2025.11.23-22.19.30:655][441]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.19.30:655][441]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.19.30:655][441]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.19.30:655][441]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.19.30:706][441]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-22.19.34:573][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.19.34:573][896]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.19.34:573][896]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-22.19.34:574][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.19.34:576][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-22.19.34:580][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.19.34:600][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.19.34:600][896]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.11.23-22.19.34:600][896]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=4
+[2025.11.23-22.19.34:602][896]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=2
+[2025.11.23-22.19.34:607][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-22.19.34:662][897]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.11.23-22.19.58:796][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.11.23-22.19.59:763][739]LogSlate: Window 'Save Content' being destroyed
+[2025.11.23-22.19.59:788][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-22.19.59:886][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.11.23-22.19.59:901][739]LogSavePackage: Moving output files for package: /Game/BuildLevel
+[2025.11.23-22.19.59:901][739]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BuildLevelB49EF78B4DE615A4B3770384D09A0991.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap'
+[2025.11.23-22.19.59:912][739]LogFileHelpers: Saving map 'BuildLevel' took 0.068
+[2025.11.23-22.19.59:920][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.244 ms (total: 1.85 sec)
+[2025.11.23-22.19.59:995][739]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-22.19.59:995][739]LogContentValidation: Enabled validators:
+[2025.11.23-22.19.59:995][739]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-22.19.59:995][739]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-22.19.59:995][739]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-22.19.59:995][739]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-22.19.59:995][739]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-22.19.59:995][739]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-22.19.59:995][739]AssetCheck: /Game/BuildLevel Validating asset
+[2025.11.23-22.21.50:807][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.11.23-22.21.51:905][685]LogSlate: Window 'Save Content' being destroyed
+[2025.11.23-22.21.51:922][685]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-22.21.51:972][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GM_PlatformGame] ([2] browsable assets)...
+[2025.11.23-22.21.51:972][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/GM_PlatformGame]
+[2025.11.23-22.21.51:972][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GM_PlatformGame" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset" SILENT=true
+[2025.11.23-22.21.51:984][685]LogSavePackage: Moving output files for package: /Game/GM_PlatformGame
+[2025.11.23-22.21.51:984][685]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/GM_PlatformGameDD269DF446800632E5F8AC9FB358F7E3.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset'
+[2025.11.23-22.21.52:000][685]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.349 ms (total: 1.93 sec)
+[2025.11.23-22.21.52:057][685]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-22.21.52:057][685]LogContentValidation: Enabled validators:
+[2025.11.23-22.21.52:057][685]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-22.21.52:057][685]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-22.21.52:057][685]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-22.21.52:057][685]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-22.21.52:057][685]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-22.21.52:057][685]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-22.21.52:057][685]AssetCheck: /Game/GM_PlatformGame Validating asset
+[2025.11.23-22.21.53:445][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.11.23-22.21.54:010][906]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-22.21.54:043][906]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GM_PlatformGame] ([2] browsable assets)...
+[2025.11.23-22.21.54:043][906]OBJ SavePackage: Finished generating thumbnails for package [/Game/GM_PlatformGame]
+[2025.11.23-22.21.54:043][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GM_PlatformGame" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset" SILENT=true
+[2025.11.23-22.21.54:053][906]LogSavePackage: Moving output files for package: /Game/GM_PlatformGame
+[2025.11.23-22.21.54:054][906]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/GM_PlatformGameBA3F76754DF39CE6FBDDC9AFB610B921.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset'
+[2025.11.23-22.21.54:062][906]LogFileHelpers: InternalPromptForCheckoutAndSave took 52.388 ms (total: 1.98 sec)
+[2025.11.23-22.21.54:126][906]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-22.21.54:126][906]LogContentValidation: Enabled validators:
+[2025.11.23-22.21.54:126][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-22.21.54:126][906]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-22.21.54:126][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-22.21.54:126][906]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-22.21.54:126][906]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-22.21.54:126][906]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-22.21.54:127][906]AssetCheck: /Game/GM_PlatformGame Validating asset
+[2025.11.23-22.22.02:805][904]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-22.22.02:812][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-22.22.02:845][904]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.22.02:848][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002469s)
+[2025.11.23-22.22.02:848][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002509s)
+[2025.11.23-22.22.02:867][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.11.23-22.22.02:875][904]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-22.22.02:877][904]LogPlayLevel: PIE: World Init took: (0.001506s)
+[2025.11.23-22.22.02:877][904]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.11.23-22.22.02:877][904]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-22.22.02:877][904]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-22.22.02:877][904]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-22.22.02:877][904]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-22.22.02:877][904]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-22.22.02:877][904]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-22.22.02:877][904]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-22.22.02:877][904]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-22.22.02:877][904]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-22.22.02:877][904]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-22.22.02:877][904]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-22.22.02:879][904]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-22.22.02:897][904]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-22.22.02:897][904]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-22.22.02:897][904]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-22.22.02:897][904]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-22.22.02:898][904]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.11.23-22.22.02:898][904]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.11.23-22.22.02:900][904]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.11.23-22.22.02:900][904]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.11.23-22.22.02:900][904]LogInit: FAudioDevice initialized with ID 18.
+[2025.11.23-22.22.02:900][904]LogAudio: Display: Audio Device (ID: 18) registered with world 'BuildLevel'.
+[2025.11.23-22.22.02:900][904]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.11.23-22.22.02:904][904]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-22.22.02:905][904]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.23-16.22.02
+[2025.11.23-22.22.02:905][904]LogWorld: Bringing up level for play took: 0.001038
+[2025.11.23-22.22.02:907][904]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.11.23-22.22.02:908][904]LogCameraSystem: Creating camera system host for gameplay camera 'PlatformActor_1'.
+[2025.11.23-22.22.02:908][904]LogScript: Error: Script Msg: Can't activate gameplay camera component: no camera asset was set!
+[2025.11.23-22.22.02:908][904]LogScript: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2025.11.23-22.22.02:909][904]PIE: Server logged in
+[2025.11.23-22.22.02:910][904]PIE: Play in editor total start time 0.099 seconds.
+[2025.11.23-22.22.02:911][904]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.22.02:911][904]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.22.02:911][904]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.22.02:911][904]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.22.02:964][904]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-22.22.39:249][251]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6629.233887
+[2025.11.23-22.22.39:365][265]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.23-22.22.39:365][265]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6629.341309, Update Interval: 306.870331
+[2025.11.23-22.22.45:136][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.22.45:136][953]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.22.45:137][953]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-22.22.45:137][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.22.45:139][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-22.22.45:144][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.22.45:164][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.22.45:164][953]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.11.23-22.22.45:164][953]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=4
+[2025.11.23-22.22.45:166][953]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=2
+[2025.11.23-22.22.45:172][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-22.22.45:223][954]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.11.23-22.23.08:230][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.23-22.23.09:158][680]LogSlate: Window 'Save Content' being destroyed
+[2025.11.23-22.23.09:167][680]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-22.23.09:224][680]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_TiltControls] ([1] browsable assets)...
+[2025.11.23-22.23.09:224][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_TiltControls]
+[2025.11.23-22.23.09:224][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_TiltControls" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset" SILENT=true
+[2025.11.23-22.23.09:234][680]LogSavePackage: Moving output files for package: /Game/Input/IMC_TiltControls
+[2025.11.23-22.23.09:235][680]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IMC_TiltControls2BF820FC416FEB048D6C648F89DF6AAC.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset'
+[2025.11.23-22.23.09:252][680]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.404 ms (total: 2.07 sec)
+[2025.11.23-22.23.09:325][680]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-22.23.09:325][680]LogContentValidation: Enabled validators:
+[2025.11.23-22.23.09:325][680]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-22.23.09:325][680]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-22.23.09:325][680]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-22.23.09:325][680]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-22.23.09:325][680]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-22.23.09:325][680]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-22.23.09:325][680]AssetCheck: /Game/Input/IMC_TiltControls Validating asset
+[2025.11.23-22.23.09:325][680]AssetCheck: Error: [AssetLog] C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Content\Input\IMC_TiltControls.uasset: There cannot be a null Input Trigger on a key mapping
+[2025.11.23-22.23.09:325][680]AssetCheck: Error: [AssetLog] C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Content\Input\IMC_TiltControls.uasset: There cannot be a null Input Trigger on a key mapping
+[2025.11.23-22.23.09:325][680]AssetCheck: Error: [AssetLog] C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Content\Input\IMC_TiltControls.uasset: There cannot be a null Input Trigger on a key mapping
+[2025.11.23-22.23.09:325][680]AssetCheck: Error: [AssetLog] C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Content\Input\IMC_TiltControls.uasset: There cannot be a null Input Trigger on a key mapping
+[2025.11.23-22.23.14:355][220]LogSlate: Window 'Message Log' being destroyed
+[2025.11.23-22.23.14:359][220]LogSlate: Window 'Message Log' being destroyed
+[2025.11.23-22.23.17:786][627]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-22.23.17:792][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-22.23.17:817][627]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.23.17:819][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002565s)
+[2025.11.23-22.23.17:819][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002603s)
+[2025.11.23-22.23.17:839][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-22.23.17:841][627]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-22.23.17:842][627]LogPlayLevel: PIE: World Init took: (0.001409s)
+[2025.11.23-22.23.17:843][627]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.11.23-22.23.17:843][627]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-22.23.17:843][627]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-22.23.17:843][627]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-22.23.17:843][627]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-22.23.17:843][627]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-22.23.17:843][627]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-22.23.17:843][627]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-22.23.17:843][627]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-22.23.17:843][627]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-22.23.17:843][627]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-22.23.17:843][627]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-22.23.17:844][627]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-22.23.17:862][627]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-22.23.17:862][627]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-22.23.17:862][627]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-22.23.17:862][627]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-22.23.17:862][627]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.11.23-22.23.17:862][627]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.11.23-22.23.17:865][627]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.11.23-22.23.17:865][627]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.11.23-22.23.17:865][627]LogInit: FAudioDevice initialized with ID 19.
+[2025.11.23-22.23.17:865][627]LogAudio: Display: Audio Device (ID: 19) registered with world 'BuildLevel'.
+[2025.11.23-22.23.17:865][627]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.11.23-22.23.17:869][627]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-22.23.17:870][627]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.23-16.23.17
+[2025.11.23-22.23.17:870][627]LogWorld: Bringing up level for play took: 0.001109
+[2025.11.23-22.23.17:872][627]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.11.23-22.23.17:873][627]LogCameraSystem: Creating camera system host for gameplay camera 'PlatformActor_1'.
+[2025.11.23-22.23.17:873][627]LogScript: Error: Script Msg: Can't activate gameplay camera component: no camera asset was set!
+[2025.11.23-22.23.17:873][627]LogScript: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2025.11.23-22.23.17:874][627]PIE: Server logged in
+[2025.11.23-22.23.17:875][627]PIE: Play in editor total start time 0.083 seconds.
+[2025.11.23-22.23.17:878][627]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.23.17:878][627]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.23.17:878][627]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.23.17:878][627]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.23.17:928][627]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-22.23.26:928][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.23.26:928][696]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.23.26:928][696]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-22.23.26:928][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.23.26:931][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-22.23.26:934][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.23.26:953][696]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.23-22.23.26:953][696]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.11.23-22.23.26:953][696]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=4
+[2025.11.23-22.23.26:955][696]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=2
+[2025.11.23-22.23.26:960][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.23.26:962][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-22.23.27:017][697]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.11.23-22.24.30:389][199]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-22.24.30:396][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-22.24.30:419][199]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.24.30:421][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002566s)
+[2025.11.23-22.24.30:421][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002603s)
+[2025.11.23-22.24.30:442][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-22.24.30:445][199]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-22.24.30:446][199]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2025.11.23-22.24.30:448][199]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.11.23-22.24.30:448][199]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-22.24.30:448][199]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-22.24.30:448][199]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-22.24.30:448][199]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-22.24.30:448][199]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-22.24.30:448][199]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-22.24.30:448][199]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-22.24.30:448][199]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-22.24.30:448][199]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-22.24.30:448][199]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-22.24.30:448][199]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-22.24.30:450][199]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-22.24.30:468][199]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-22.24.30:468][199]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-22.24.30:468][199]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-22.24.30:468][199]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-22.24.30:469][199]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.11.23-22.24.30:469][199]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.11.23-22.24.30:471][199]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.11.23-22.24.30:471][199]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.11.23-22.24.30:471][199]LogInit: FAudioDevice initialized with ID 20.
+[2025.11.23-22.24.30:471][199]LogAudio: Display: Audio Device (ID: 20) registered with world 'BuildLevel'.
+[2025.11.23-22.24.30:471][199]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.11.23-22.24.30:474][199]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-22.24.30:475][199]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.23-16.24.30
+[2025.11.23-22.24.30:475][199]LogWorld: Bringing up level for play took: 0.001073
+[2025.11.23-22.24.30:477][199]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.11.23-22.24.30:478][199]LogCameraSystem: Creating camera system host for gameplay camera 'PlatformActor_1'.
+[2025.11.23-22.24.30:478][199]LogScript: Error: Script Msg: Can't activate gameplay camera component: no camera asset was set!
+[2025.11.23-22.24.30:478][199]LogScript: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2025.11.23-22.24.30:479][199]PIE: Server logged in
+[2025.11.23-22.24.30:481][199]PIE: Play in editor total start time 0.085 seconds.
+[2025.11.23-22.24.30:483][199]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.24.30:483][199]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-22.24.30:483][199]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.24.30:483][199]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-22.24.30:534][199]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-22.24.34:079][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.24.34:079][615]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-22.24.34:079][615]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-22.24.34:080][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.24.34:081][615]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-22.24.34:086][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-22.24.34:105][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-22.24.34:105][615]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.11.23-22.24.34:105][615]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=4
+[2025.11.23-22.24.34:106][615]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=2
+[2025.11.23-22.24.34:113][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-22.24.34:242][616]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.11.23-22.24.56:296][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.23-22.24.57:410][190]LogSlate: Window 'Save Content' being destroyed
+[2025.11.23-22.24.57:433][190]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-22.24.57:537][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.11.23-22.24.57:552][190]LogSavePackage: Moving output files for package: /Game/BuildLevel
+[2025.11.23-22.24.57:553][190]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BuildLevel535DDBB14EE8AC4BD37ACBA6AD080563.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap'
+[2025.11.23-22.24.57:563][190]LogFileHelpers: Saving map 'BuildLevel' took 0.069
+[2025.11.23-22.24.57:570][190]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.192 ms (total: 2.21 sec)
+[2025.11.23-22.24.57:629][190]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-22.24.57:629][190]LogContentValidation: Enabled validators:
+[2025.11.23-22.24.57:629][190]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-22.24.57:629][190]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-22.24.57:629][190]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-22.24.57:629][190]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-22.24.57:629][190]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-22.24.57:629][190]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-22.24.57:629][190]AssetCheck: /Game/BuildLevel Validating asset
