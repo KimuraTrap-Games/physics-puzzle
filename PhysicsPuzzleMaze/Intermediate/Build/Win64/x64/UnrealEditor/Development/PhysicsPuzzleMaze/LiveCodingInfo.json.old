@@ -2,8 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.PhysicsPuzzleMaze.gen.cpp.obj": [
-			"PlatformActor.gen.cpp.obj",
+			"BallActor.gen.cpp.obj",
 			"PhysicsPuzzleMaze.init.gen.cpp.obj",
+			"PlatformActor.gen.cpp.obj",
 			"PlatformPlayerController.gen.cpp.obj"
 		]
 	}

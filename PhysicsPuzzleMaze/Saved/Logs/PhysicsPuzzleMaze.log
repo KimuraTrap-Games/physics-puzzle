@@ -2389,3 +2389,1296 @@ Detoured run took 759ms
 [2025.11.22-23.36.31:688][ 41]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.22-23.36.31:688][ 41]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.22-23.36.31:688][ 41]AssetCheck: /Game/BuildLevel Validating asset
+[2025.11.22-23.39.05:237][452]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2433.735840
+[2025.11.22-23.39.06:237][455]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-23.39.06:237][455]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2434.402588, Update Interval: 321.028473
+[2025.11.22-23.44.59:609][515]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2788.103271
+[2025.11.22-23.45.00:609][518]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-23.45.00:609][518]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2788.769531, Update Interval: 336.503174
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 1 (upload completely sent off: 432 bytes)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 2 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 3 (shutting down connection #13)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 5 (necessary data rewind was not possible)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 6 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D7223FD-48C3-FC0D-7E8F-57AC955A2D84%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 8 (necessary data rewind was not possible)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 9 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 10 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 11 (IPv6: (none))
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 12 (IPv4: 52.205.157.137, 3.213.151.216, 54.198.8.113, 44.221.1.212, 54.221.131.30, 54.162.51.105, 98.95.202.53, 50.16.123.245)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 13 (  Trying 52.205.157.137:443...)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 14 (SSL reusing session)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 15 (ALPN: curl offers http/1.1)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.22-23.45.32:613][614]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.22-23.45.32:613][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.22-23.45.32:613][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.11.22-23.45.32:613][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.11.22-23.45.32:613][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.11.22-23.45.32:613][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.11.22-23.45.32:613][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 26 (Server certificate:)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 28 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 29 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 33 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 34 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 35 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 36 (Connected to datarouter.ol.epicgames.com (52.205.157.137) port 443)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 37 (using HTTP/1.x)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 38 (client read function EOF fail, only 0/432 of needed bytes read)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600: libcurl info message cache 39 (closing connection #14)
+[2025.11.22-23.45.32:614][615]LogHttp: Warning: 000002AFC7CEB600 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D7223FD-48C3-FC0D-7E8F-57AC955A2D84%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.23s
+[2025.11.22-23.47.23:696][ 70]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.11.22-23.47.26:911][451]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.11.22-23.47.26:911][451]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2025.11.22-23.48.57:430][517]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.11.22-23.49.03:715][267]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debugf0e106bd-e4fd-4aea-b0b5-ad70ea5d7e0b ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\link.exe @C:\Users\scott\AppData\Local\Temp\5287.tmp
+   Creating library C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Binaries\Win64\UnrealEditor-PhysicsPuzzleMaze.patch_5.lib and object C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Binaries\Win64\UnrealEditor-PhysicsPuzzleMaze.patch_5.exp
+Detoured run took 852ms
+[2025.11.22-23.49.03:845][271]LogClass: UPackage /Script/PhysicsPuzzleMaze Reload.
+[2025.11.22-23.49.03:845][271]LogClass: UClass BallActor Reload.
+[2025.11.22-23.49.03:845][271]LogClass: Could not find existing class BallActor in package /Script/PhysicsPuzzleMaze for reload, assuming new or modified class
+[2025.11.22-23.49.03:857][271]Re-instancing BallActor after reload.
+[2025.11.22-23.49.04:001][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.11.22-23.49.04:492][272]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged, 1 function remapped
+[2025.11.22-23.49.04:493][272]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.11.22-23.50.05:301][154]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_BallActor.BP_BallActor
+[2025.11.22-23.50.05:301][154]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.11.22-23.50.05:389][154]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2025.11.22-23.50.25:973][547]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.11.22-23.50.25:973][547]LogEditor: Attempting to add actor of class 'BallActor' to level at 16840.00,6220.00,0.00
+[2025.11.22-23.50.27:236][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.11.22-23.50.27:239][678]LogEditorActor: Deleted 0 Actors (0.104 secs)
+[2025.11.22-23.50.27:243][678]LogEditor: Attempting to add actor of class 'BallActor' to level at 7840.00,-740.00,0.00
+[2025.11.22-23.51.09:871][544]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3158.356934
+[2025.11.22-23.51.09:980][557]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-23.51.09:980][558]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3158.457275, Update Interval: 319.102142
+[2025.11.22-23.51.10:339][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.11.22-23.51.11:509][696]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-23.51.11:567][696]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.22-23.51.11:567][696]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.11.22-23.51.11:581][696]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_BallActor.BP_BallActor]
+[2025.11.22-23.51.11:581][696]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.11.22-23.51.11:597][696]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/BP_BallActor.BP_BallActor_C]
+[2025.11.22-23.51.11:597][696]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.22-23.51.11:597][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.22-23.51.11:600][696]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.22-23.51.11:600][696]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.22-23.51.11:609][696]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.22-23.51.11:609][696]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActorE63C88784C5045296F4C1995F5613D56.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.22-23.51.11:617][696]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.454 ms (total: 1.00 sec)
+[2025.11.22-23.51.11:666][696]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-23.51.11:666][696]LogContentValidation: Enabled validators:
+[2025.11.22-23.51.11:666][696]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-23.51.11:666][696]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-23.51.11:666][696]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-23.51.11:666][696]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-23.51.11:666][696]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-23.51.11:666][696]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-23.51.11:666][696]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.22-23.51.11:680][696]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.22-23.51.15:983][204]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.22-23.51.15:990][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.22-23.51.16:019][204]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.51.16:021][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001828s)
+[2025.11.22-23.51.16:021][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001878s)
+[2025.11.22-23.51.16:042][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.11.22-23.51.16:059][204]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.22-23.51.16:061][204]LogPlayLevel: PIE: World Init took: (0.001679s)
+[2025.11.22-23.51.16:062][204]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.11.22-23.51.16:062][204]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.22-23.51.16:062][204]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.22-23.51.16:062][204]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.22-23.51.16:062][204]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.22-23.51.16:062][204]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.22-23.51.16:062][204]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.22-23.51.16:062][204]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.22-23.51.16:062][204]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.22-23.51.16:062][204]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.22-23.51.16:062][204]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.22-23.51.16:062][204]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.22-23.51.16:064][204]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.22-23.51.16:086][204]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.22-23.51.16:087][204]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.22-23.51.16:087][204]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.22-23.51.16:087][204]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.22-23.51.16:087][204]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.11.22-23.51.16:087][204]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.11.22-23.51.16:089][204]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.11.22-23.51.16:089][204]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.11.22-23.51.16:089][204]LogInit: FAudioDevice initialized with ID 13.
+[2025.11.22-23.51.16:089][204]LogAudio: Display: Audio Device (ID: 13) registered with world 'BuildLevel'.
+[2025.11.22-23.51.16:089][204]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.11.22-23.51.16:093][204]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.22-23.51.16:094][204]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-17.51.16
+[2025.11.22-23.51.16:094][204]LogWorld: Bringing up level for play took: 0.000640
+[2025.11.22-23.51.16:096][204]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.11.22-23.51.16:098][204]PIE: Server logged in
+[2025.11.22-23.51.16:100][204]PIE: Play in editor total start time 0.111 seconds.
+[2025.11.22-23.51.16:101][204]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.51.16:101][204]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.51.16:101][204]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.51.16:101][204]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.51.16:155][204]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.22-23.51.22:530][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.51.22:530][920]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.51.22:530][920]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.22-23.51.22:530][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.51.22:533][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.22-23.51.22:538][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.51.22:559][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.51.22:559][920]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.11.22-23.51.22:559][920]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2025.11.22-23.51.22:562][920]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2025.11.22-23.51.22:567][920]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.22-23.51.22:697][921]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.11.22-23.51.56:910][300]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.22-23.51.57:382][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-23.51.57:430][331]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.22-23.51.57:430][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.22-23.51.57:430][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.22-23.51.57:432][331]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.22-23.51.57:432][331]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.22-23.51.57:440][331]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.22-23.51.57:441][331]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActor5C6A78F147D9DC18B73DF6A02B06D4B3.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.22-23.51.57:448][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.318 ms (total: 1.07 sec)
+[2025.11.22-23.51.57:496][331]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-23.51.57:496][331]LogContentValidation: Enabled validators:
+[2025.11.22-23.51.57:496][331]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-23.51.57:496][331]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-23.51.57:496][331]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-23.51.57:496][331]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-23.51.57:496][331]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-23.51.57:496][331]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-23.51.57:496][331]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: ================================================
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Total job queries 691, among them cache hits 125 (18.09%), DDC hits 530 (76.70%), Duplicates 16 (2.32%)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Tracking 550 distinct input hashes that result in 401 distinct outputs (72.91%)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: RAM used: 4.45 MiB of 3.20 GiB budget. Usage: 0.14%
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Shaders Compiled: 20
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Jobs assigned 20, completed 20 (100%)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Average time worker was idle: 367.38 s
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.09 s
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Job execution time: average 0.58 s, max 0.93 s
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Job life time (pending + execution): average 0.63 s, max 1.01
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Shader code size: total 193.176 KiB, numShaders 23, average 8.398 KiB, min 2.637 KiB, max 14.234 KiB
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.65 s
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.05%
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Average processing rate: 4.30 jobs/sec
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Total thread time: 8.848 s
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Total thread preprocess time: 7.337 s
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Percentage time preprocessing: 82.92%
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Effective parallelization: 1.90 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.118914
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    3 times, average 0.84 sec, max 0.89 sec, min 0.80 sec)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 0.61 sec, max 0.61 sec, min 0.60 sec)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 0.45 sec, max 0.47 sec, min 0.44 sec)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.32 sec, max 0.36 sec, min 0.29 sec)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 28.46% of total time (compiled    3 times, average 0.84 sec, max 0.89 sec, min 0.80 sec)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.22% of total time (compiled    5 times, average 0.32 sec, max 0.36 sec, min 0.29 sec)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 13.69% of total time (compiled    2 times, average 0.61 sec, max 0.61 sec, min 0.60 sec)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.42% of total time (compiled    5 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display:                                                  FVelocityPS - 10.28% of total time (compiled    2 times, average 0.45 sec, max 0.47 sec, min 0.44 sec)
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: === Material stats ===
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Materials Translated:    142
+[2025.11.22-23.52.36:832][777]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.11.22-23.52.36:833][777]LogShaderCompilers: Display: Material Translation Only: 0.03 s (34%)
+[2025.11.22-23.52.36:833][777]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.22-23.52.36:833][777]LogShaderCompilers: Display: Material Cache Hits: 19 (13%)
+[2025.11.22-23.52.36:833][777]LogShaderCompilers: Display: ================================================
+[2025.11.22-23.52.40:128][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.22-23.52.40:731][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-23.52.40:788][228]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.22-23.52.40:794][228]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_BallActor.BP_BallActor]
+[2025.11.22-23.52.40:794][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.22-23.52.40:794][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.22-23.52.40:797][228]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.22-23.52.40:797][228]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.22-23.52.40:806][228]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.22-23.52.40:806][228]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActor3972CBDD47147D5AF7AD2987E6AB0901.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.22-23.52.40:815][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.259 ms (total: 1.15 sec)
+[2025.11.22-23.52.40:877][228]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-23.52.40:877][228]LogContentValidation: Enabled validators:
+[2025.11.22-23.52.40:877][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-23.52.40:877][228]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-23.52.40:877][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-23.52.40:877][228]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-23.52.40:877][228]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-23.52.40:877][228]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-23.52.40:877][228]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.22-23.52.44:395][642]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.22-23.52.44:403][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.22-23.52.44:431][642]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.52.44:432][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001850s)
+[2025.11.22-23.52.44:432][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001890s)
+[2025.11.22-23.52.44:453][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.11.22-23.52.44:457][642]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.22-23.52.44:459][642]LogPlayLevel: PIE: World Init took: (0.001743s)
+[2025.11.22-23.52.44:460][642]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.11.22-23.52.44:460][642]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.22-23.52.44:460][642]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.22-23.52.44:460][642]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.22-23.52.44:460][642]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.22-23.52.44:460][642]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.22-23.52.44:460][642]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.22-23.52.44:460][642]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.22-23.52.44:460][642]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.22-23.52.44:460][642]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.22-23.52.44:460][642]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.22-23.52.44:460][642]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.22-23.52.44:462][642]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.22-23.52.44:483][642]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.22-23.52.44:483][642]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.22-23.52.44:483][642]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.22-23.52.44:483][642]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.22-23.52.44:483][642]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.11.22-23.52.44:483][642]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.11.22-23.52.44:486][642]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.11.22-23.52.44:486][642]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.11.22-23.52.44:486][642]LogInit: FAudioDevice initialized with ID 14.
+[2025.11.22-23.52.44:486][642]LogAudio: Display: Audio Device (ID: 14) registered with world 'BuildLevel'.
+[2025.11.22-23.52.44:486][642]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.11.22-23.52.44:489][642]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.22-23.52.44:490][642]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-17.52.44
+[2025.11.22-23.52.44:490][642]LogWorld: Bringing up level for play took: 0.000617
+[2025.11.22-23.52.44:492][642]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.11.22-23.52.44:494][642]PIE: Server logged in
+[2025.11.22-23.52.44:496][642]PIE: Play in editor total start time 0.093 seconds.
+[2025.11.22-23.52.44:497][642]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.52.44:497][642]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.52.44:497][642]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.52.44:497][642]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.52.44:550][642]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.22-23.52.54:262][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.52.54:262][767]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.52.54:262][767]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.22-23.52.54:262][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.52.54:264][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.22-23.52.54:270][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.52.54:291][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.52.54:291][767]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.11.22-23.52.54:291][767]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2025.11.22-23.52.54:293][767]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2025.11.22-23.52.54:299][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.11.22-23.52.54:426][768]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.11.22-23.54.05:193][ 93]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.22-23.54.05:200][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.22-23.54.05:223][ 93]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.54.05:224][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001937s)
+[2025.11.22-23.54.05:224][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001985s)
+[2025.11.22-23.54.05:245][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.22-23.54.05:256][ 93]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.22-23.54.05:258][ 93]LogPlayLevel: PIE: World Init took: (0.001666s)
+[2025.11.22-23.54.05:259][ 93]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.11.22-23.54.05:259][ 93]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.22-23.54.05:259][ 93]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.22-23.54.05:259][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.22-23.54.05:259][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.22-23.54.05:259][ 93]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.22-23.54.05:259][ 93]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.22-23.54.05:259][ 93]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.22-23.54.05:259][ 93]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.22-23.54.05:259][ 93]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.22-23.54.05:259][ 93]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.22-23.54.05:259][ 93]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.22-23.54.05:260][ 93]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.22-23.54.05:280][ 93]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.22-23.54.05:280][ 93]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.22-23.54.05:280][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.22-23.54.05:280][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.22-23.54.05:280][ 93]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.11.22-23.54.05:280][ 93]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.11.22-23.54.05:283][ 93]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.11.22-23.54.05:283][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.11.22-23.54.05:283][ 93]LogInit: FAudioDevice initialized with ID 15.
+[2025.11.22-23.54.05:283][ 93]LogAudio: Display: Audio Device (ID: 15) registered with world 'BuildLevel'.
+[2025.11.22-23.54.05:285][ 93]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.11.22-23.54.05:289][ 93]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.22-23.54.05:290][ 93]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-17.54.05
+[2025.11.22-23.54.05:290][ 93]LogWorld: Bringing up level for play took: 0.000706
+[2025.11.22-23.54.05:292][ 93]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2025.11.22-23.54.05:293][ 93]PIE: Server logged in
+[2025.11.22-23.54.05:295][ 93]PIE: Play in editor total start time 0.095 seconds.
+[2025.11.22-23.54.05:297][ 93]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.54.05:297][ 93]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.54.05:297][ 93]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.54.05:297][ 93]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.54.05:348][ 93]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.22-23.54.08:363][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.54.08:363][441]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.54.08:363][441]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.22-23.54.08:363][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.54.08:366][441]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.22-23.54.08:371][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.54.08:389][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.54.08:390][441]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.11.22-23.54.08:390][441]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2025.11.22-23.54.08:391][441]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2025.11.22-23.54.08:397][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.22-23.54.08:528][442]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.11.22-23.54.24:611][257]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.22-23.54.24:618][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.22-23.54.24:653][257]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.54.24:655][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001882s)
+[2025.11.22-23.54.24:655][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001925s)
+[2025.11.22-23.54.24:676][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.11.22-23.54.24:678][257]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.22-23.54.24:679][257]LogPlayLevel: PIE: World Init took: (0.001496s)
+[2025.11.22-23.54.24:680][257]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.11.22-23.54.24:680][257]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.22-23.54.24:680][257]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.22-23.54.24:680][257]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.22-23.54.24:680][257]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.22-23.54.24:680][257]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.22-23.54.24:680][257]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.22-23.54.24:680][257]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.22-23.54.24:680][257]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.22-23.54.24:680][257]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.22-23.54.24:680][257]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.22-23.54.24:680][257]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.22-23.54.24:682][257]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.22-23.54.24:700][257]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.22-23.54.24:700][257]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.22-23.54.24:700][257]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.22-23.54.24:700][257]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.22-23.54.24:701][257]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.11.22-23.54.24:701][257]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.11.22-23.54.24:702][257]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.11.22-23.54.24:703][257]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.11.22-23.54.24:703][257]LogInit: FAudioDevice initialized with ID 16.
+[2025.11.22-23.54.24:703][257]LogAudio: Display: Audio Device (ID: 16) registered with world 'BuildLevel'.
+[2025.11.22-23.54.24:703][257]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.11.22-23.54.24:707][257]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.22-23.54.24:708][257]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-17.54.24
+[2025.11.22-23.54.24:708][257]LogWorld: Bringing up level for play took: 0.000609
+[2025.11.22-23.54.24:710][257]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.11.22-23.54.24:711][257]PIE: Server logged in
+[2025.11.22-23.54.24:712][257]PIE: Play in editor total start time 0.095 seconds.
+[2025.11.22-23.54.24:713][257]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.54.24:713][257]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.54.24:713][257]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.54.24:713][257]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.54.24:767][257]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.22-23.54.26:604][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.54.26:604][465]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.54.26:604][465]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.22-23.54.26:604][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.54.26:604][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.22-23.54.26:610][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.54.26:630][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.54.26:630][465]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.11.22-23.54.26:630][465]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=4
+[2025.11.22-23.54.26:633][465]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
+[2025.11.22-23.54.26:638][465]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.22-23.54.26:766][466]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.11.22-23.54.35:825][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.22-23.54.37:056][496]LogSlate: Window 'Save Content' being destroyed
+[2025.11.22-23.54.37:082][496]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-23.54.37:181][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.11.22-23.54.37:185][496]LogWorldPartition: Can't find class descriptor '/Script/PhysicsPuzzleMaze.BallActor' for saving '/Game/BuildLevel.BuildLevel:PersistentLevel.BallActor_1'
+[2025.11.22-23.54.37:196][496]LogSavePackage: Moving output files for package: /Game/BuildLevel
+[2025.11.22-23.54.37:197][496]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BuildLevel95C2CEBB41B2F529EADBF889D652C90E.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap'
+[2025.11.22-23.54.37:207][496]LogFileHelpers: Saving map 'BuildLevel' took 0.067
+[2025.11.22-23.54.37:214][496]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.762 ms (total: 1.28 sec)
+[2025.11.22-23.54.37:290][496]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-23.54.37:290][496]LogContentValidation: Enabled validators:
+[2025.11.22-23.54.37:290][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-23.54.37:290][496]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-23.54.37:290][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-23.54.37:290][496]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-23.54.37:290][496]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-23.54.37:290][496]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-23.54.37:290][496]AssetCheck: /Game/BuildLevel Validating asset
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 1 (upload completely sent off: 583 bytes)
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 2 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 3 (shutting down connection #16)
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 5 (necessary data rewind was not possible)
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 6 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D7223FD-48C3-FC0D-7E8F-57AC955A2D84%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 8 (necessary data rewind was not possible)
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 9 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 10 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 11 (IPv6: (none))
+[2025.11.22-23.55.32:596][ 70]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 12 (IPv4: 34.196.222.125, 44.197.97.101, 34.200.153.251, 52.44.28.94, 52.21.159.63, 35.171.65.104, 34.199.106.135, 44.221.28.67)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 13 (  Trying 34.196.222.125:443...)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 14 (SSL reusing session)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 15 (ALPN: curl offers http/1.1)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 26 (Server certificate:)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 28 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 29 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 33 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 34 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.22-23.55.32:596][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 35 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.22-23.55.32:597][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 36 (Connected to datarouter.ol.epicgames.com (34.196.222.125) port 443)
+[2025.11.22-23.55.32:597][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 37 (using HTTP/1.x)
+[2025.11.22-23.55.32:597][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 38 (client read function EOF fail, only 0/583 of needed bytes read)
+[2025.11.22-23.55.32:597][ 71]LogHttp: Warning: 000002B0670D1500: libcurl info message cache 39 (closing connection #17)
+[2025.11.22-23.55.32:597][ 71]LogHttp: Warning: 000002B0670D1500 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D7223FD-48C3-FC0D-7E8F-57AC955A2D84%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.18s
+[2025.11.22-23.57.01:680][611]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3510.179199
+[2025.11.22-23.57.01:789][624]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.22-23.57.01:789][624]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3510.278076, Update Interval: 351.185028
+[2025.11.22-23.58.25:682][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.11.22-23.58.26:117][538]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.22-23.58.26:172][538]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GM_PlatformGame] ([2] browsable assets)...
+[2025.11.22-23.58.26:172][538]OBJ SavePackage: Finished generating thumbnails for package [/Game/GM_PlatformGame]
+[2025.11.22-23.58.26:172][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GM_PlatformGame" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset" SILENT=true
+[2025.11.22-23.58.26:182][538]LogSavePackage: Moving output files for package: /Game/GM_PlatformGame
+[2025.11.22-23.58.26:183][538]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/GM_PlatformGame6101FD0D41F2534C417E67B2B2535100.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset'
+[2025.11.22-23.58.26:197][538]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.916 ms (total: 1.36 sec)
+[2025.11.22-23.58.26:271][538]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.22-23.58.26:271][538]LogContentValidation: Enabled validators:
+[2025.11.22-23.58.26:271][538]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.22-23.58.26:271][538]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.22-23.58.26:271][538]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.22-23.58.26:271][538]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.22-23.58.26:271][538]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.22-23.58.26:271][538]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.22-23.58.26:271][538]AssetCheck: /Game/GM_PlatformGame Validating asset
+[2025.11.22-23.58.28:241][767]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.22-23.58.28:248][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.22-23.58.28:288][767]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.58.28:289][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001818s)
+[2025.11.22-23.58.28:289][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001863s)
+[2025.11.22-23.58.28:310][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.11.22-23.58.28:313][767]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.22-23.58.28:315][767]LogPlayLevel: PIE: World Init took: (0.001532s)
+[2025.11.22-23.58.28:316][767]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.11.22-23.58.28:316][767]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.22-23.58.28:316][767]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.22-23.58.28:316][767]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.22-23.58.28:316][767]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.22-23.58.28:316][767]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.22-23.58.28:316][767]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.22-23.58.28:316][767]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.22-23.58.28:316][767]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.22-23.58.28:316][767]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.22-23.58.28:316][767]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.22-23.58.28:316][767]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.22-23.58.28:318][767]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.22-23.58.28:338][767]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.22-23.58.28:339][767]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.22-23.58.28:339][767]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.22-23.58.28:339][767]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.22-23.58.28:339][767]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.11.22-23.58.28:339][767]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.11.22-23.58.28:341][767]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.11.22-23.58.28:341][767]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.11.22-23.58.28:341][767]LogInit: FAudioDevice initialized with ID 17.
+[2025.11.22-23.58.28:341][767]LogAudio: Display: Audio Device (ID: 17) registered with world 'BuildLevel'.
+[2025.11.22-23.58.28:341][767]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.11.22-23.58.28:345][767]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.22-23.58.28:346][767]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-17.58.28
+[2025.11.22-23.58.28:346][767]LogWorld: Bringing up level for play took: 0.000599
+[2025.11.22-23.58.28:347][767]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.11.22-23.58.28:349][767]PIE: Server logged in
+[2025.11.22-23.58.28:351][767]PIE: Play in editor total start time 0.103 seconds.
+[2025.11.22-23.58.28:352][767]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.58.28:352][767]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.58.28:352][767]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.58.28:352][767]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.58.28:406][767]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.22-23.58.38:348][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.58.38:348][921]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.58.38:348][921]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.22-23.58.38:348][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.58.38:350][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.22-23.58.38:355][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.58.38:375][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.58.38:376][921]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.11.22-23.58.38:376][921]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=4
+[2025.11.22-23.58.38:377][921]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=2
+[2025.11.22-23.58.38:384][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.22-23.58.38:509][922]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.11.22-23.58.45:821][737]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.22-23.58.45:828][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.22-23.58.45:868][737]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.58.45:870][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001887s)
+[2025.11.22-23.58.45:870][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001932s)
+[2025.11.22-23.58.45:893][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.11.22-23.58.45:896][737]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.22-23.58.45:897][737]LogPlayLevel: PIE: World Init took: (0.001628s)
+[2025.11.22-23.58.45:898][737]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.11.22-23.58.45:898][737]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.22-23.58.45:898][737]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.22-23.58.45:898][737]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.22-23.58.45:898][737]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.22-23.58.45:898][737]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.22-23.58.45:898][737]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.22-23.58.45:898][737]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.22-23.58.45:898][737]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.22-23.58.45:898][737]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.22-23.58.45:898][737]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.22-23.58.45:898][737]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.22-23.58.45:901][737]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.22-23.58.45:918][737]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.22-23.58.45:918][737]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.22-23.58.45:918][737]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.22-23.58.45:918][737]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.22-23.58.45:918][737]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.11.22-23.58.45:918][737]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.11.22-23.58.45:922][737]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.11.22-23.58.45:922][737]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.11.22-23.58.45:922][737]LogInit: FAudioDevice initialized with ID 18.
+[2025.11.22-23.58.45:922][737]LogAudio: Display: Audio Device (ID: 18) registered with world 'BuildLevel'.
+[2025.11.22-23.58.45:922][737]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.11.22-23.58.45:925][737]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.22-23.58.45:926][737]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-17.58.45
+[2025.11.22-23.58.45:926][737]LogWorld: Bringing up level for play took: 0.000632
+[2025.11.22-23.58.45:928][737]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.11.22-23.58.45:930][737]PIE: Server logged in
+[2025.11.22-23.58.45:932][737]PIE: Play in editor total start time 0.103 seconds.
+[2025.11.22-23.58.45:933][737]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.58.45:933][737]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.22-23.58.45:933][737]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.58.45:933][737]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.22-23.58.45:987][738]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.22-23.58.47:518][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.58.47:518][911]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.22-23.58.47:518][911]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.22-23.58.47:518][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.58.47:518][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.22-23.58.47:524][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.22-23.58.47:544][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.22-23.58.47:544][911]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.11.22-23.58.47:544][911]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=4
+[2025.11.22-23.58.47:546][911]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=2
+[2025.11.22-23.58.47:552][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.22-23.58.47:601][912]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.11.22-23.59.19:276][500]Cmd: TRANSACTION UNDO
+[2025.11.22-23.59.19:276][500]LogEditorTransaction: Undo Move Elements
+[2025.11.22-23.59.24:086][ 12]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.11.22-23.59.26:661][310]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.11.23-00.00.21:543][821]LogDerivedDataCache: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.23-00.00.43:325][407]Cmd: DELETE
+[2025.11.23-00.00.43:325][407]Cmd: ACTOR DELETE
+[2025.11.23-00.00.43:327][407]LogEditorActor: Deleted Actor: BallActor
+[2025.11.23-00.00.43:350][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.23-00.00.43:367][407]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2025.11.23-00.00.48:693][ 35]Cmd: DELETE
+[2025.11.23-00.00.48:694][ 35]Cmd: ACTOR DELETE
+[2025.11.23-00.00.48:695][ 35]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.23-00.00.48:716][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.11.23-00.00.48:723][ 35]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.11.23-00.00.53:215][542]LogEditor: Attempting to add actor of class 'BallActor' to level at 10.00,12590.00,0.00
+[2025.11.23-00.00.54:252][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.11.23-00.00.54:256][661]LogEditorActor: Deleted 0 Actors (0.023 secs)
+[2025.11.23-00.00.54:259][661]LogEditor: Attempting to add actor of class 'BallActor' to level at -4130.00,7310.00,0.00
+[2025.11.23-00.01.04:813][849]Cmd: DELETE
+[2025.11.23-00.01.04:814][849]Cmd: ACTOR DELETE
+[2025.11.23-00.01.04:815][849]LogEditorActor: Deleted Actor: BallActor
+[2025.11.23-00.01.04:841][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.11.23-00.01.04:843][849]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.11.23-00.01.21:828][765]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_BallActor.BP_BallActor_C
+[2025.11.23-00.01.21:828][765]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_BallActor.BP_BallActor_C
+[2025.11.23-00.01.21:828][765]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_BallActor.BP_BallActor as actor: BP_BallActor_C /Game/BuildLevel.BuildLevel:PersistentLevel.BP_BallActor_C_0
+[2025.11.23-00.01.21:830][765]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_BallActor.BP_BallActor as actor: BP_BallActor_C /Game/BuildLevel.BuildLevel:PersistentLevel.BP_BallActor_C_0
+[2025.11.23-00.01.22:976][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.23-00.01.22:983][889]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2025.11.23-00.01.22:988][889]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_BallActor.BP_BallActor_C
+[2025.11.23-00.01.22:988][889]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_BallActor.BP_BallActor_C
+[2025.11.23-00.01.22:991][889]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_BallActor.BP_BallActor as actor: BP_BallActor_C /Game/BuildLevel.BuildLevel:PersistentLevel.BP_BallActor_C_1
+[2025.11.23-00.01.22:991][889]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_BallActor.BP_BallActor as actor: BP_BallActor_C /Game/BuildLevel.BuildLevel:PersistentLevel.BP_BallActor_C_1
+[2025.11.23-00.02.22:512][600]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.11.23-00.02.26:159][613]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debugf3a0d9d1-955f-41f2-90ad-06d33a6f4f16 ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\link.exe @C:\Users\scott\AppData\Local\Temp\91B9.tmp
+   Creating library C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Binaries\Win64\UnrealEditor-PhysicsPuzzleMaze.patch_6.lib and object C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Binaries\Win64\UnrealEditor-PhysicsPuzzleMaze.patch_6.exp
+Detoured run took 697ms
+[2025.11.23-00.02.26:422][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.11.23-00.02.26:972][614]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes unchanged, 1 function remapped
+[2025.11.23-00.02.26:972][614]LogLiveCoding: Display: Live coding succeeded
+[2025.11.23-00.02.46:877][841]Cmd: TRANSACTION UNDO
+[2025.11.23-00.02.46:877][841]LogEditorTransaction: Undo Set Location
+[2025.11.23-00.03.08:897][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.11.23-00.03.09:421][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.03.09:486][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.23-00.03.09:493][347]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_BallActor.BP_BallActor]
+[2025.11.23-00.03.09:493][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.23-00.03.09:493][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.23-00.03.09:495][347]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.03.09:495][347]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.03.09:505][347]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.23-00.03.09:505][347]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActorCE64EB4E44F851E4DB6A059E8AB501D1.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.23-00.03.09:523][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 102.258 ms (total: 1.47 sec)
+[2025.11.23-00.03.09:583][347]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.03.09:583][347]LogContentValidation: Enabled validators:
+[2025.11.23-00.03.09:583][347]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.03.09:583][347]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.03.09:583][347]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.03.09:583][347]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.03.09:583][347]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.03.09:583][347]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.03.09:583][347]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.23-00.03.15:303][  8]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-00.03.15:303][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.03.15:388][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.11.23-00.03.28:010][485]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3896.514404
+[2025.11.23-00.03.28:117][498]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.23-00.03.28:118][498]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3896.614502, Update Interval: 346.078064
+[2025.11.23-00.03.35:347][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.23-00.03.35:921][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.03.35:977][374]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.23-00.03.35:982][374]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_BallActor.BP_BallActor]
+[2025.11.23-00.03.35:982][374]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.23-00.03.35:982][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.23-00.03.35:985][374]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.03.35:985][374]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.03.35:993][374]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.23-00.03.35:993][374]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActor5DA5B93849B343081A9DA2B8C2EAFAF9.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.23-00.03.36:002][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.242 ms (total: 1.55 sec)
+[2025.11.23-00.03.36:061][374]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.03.36:061][374]LogContentValidation: Enabled validators:
+[2025.11.23-00.03.36:061][374]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.03.36:061][374]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.03.36:061][374]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.03.36:061][374]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.03.36:061][374]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.03.36:061][374]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.03.36:061][374]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.23-00.03.58:124][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.11.23-00.03.58:902][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.03.58:950][926]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.23-00.03.58:956][926]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_BallActor.BP_BallActor]
+[2025.11.23-00.03.58:956][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.23-00.03.58:956][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.23-00.03.58:959][926]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.03.58:959][926]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.03.58:968][926]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.23-00.03.58:969][926]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActor8CDD80F34A151E7B5EB40C9AB2CA8AED.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.23-00.03.58:976][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.794 ms (total: 1.62 sec)
+[2025.11.23-00.03.59:034][926]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.03.59:034][926]LogContentValidation: Enabled validators:
+[2025.11.23-00.03.59:034][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.03.59:034][926]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.03.59:034][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.03.59:034][926]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.03.59:034][926]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.03.59:034][926]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.03.59:034][926]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.23-00.04.19:764][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.23-00.04.20:473][411]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.04.20:522][411]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.23-00.04.20:528][411]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_BallActor.BP_BallActor]
+[2025.11.23-00.04.20:528][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.23-00.04.20:528][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.23-00.04.20:530][411]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.04.20:531][411]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.04.20:538][411]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.23-00.04.20:539][411]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActor4E8CB2E843219DA3BF443CBA36C75005.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.23-00.04.20:549][411]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.479 ms (total: 1.70 sec)
+[2025.11.23-00.04.20:604][411]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.04.20:604][411]LogContentValidation: Enabled validators:
+[2025.11.23-00.04.20:604][411]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.04.20:604][411]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.04.20:604][411]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.04.20:604][411]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.04.20:604][411]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.04.20:604][411]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.04.20:604][411]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.23-00.04.48:860][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.11.23-00.04.49:561][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.04.49:622][712]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.23-00.04.49:628][712]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_BallActor.BP_BallActor]
+[2025.11.23-00.04.49:628][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.23-00.04.49:628][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.23-00.04.49:631][712]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.04.49:631][712]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.04.49:639][712]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.23-00.04.49:639][712]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActor4F0B2EA2425DF801D266B6B4CB9BB296.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.23-00.04.49:648][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.610 ms (total: 1.78 sec)
+[2025.11.23-00.04.49:705][712]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.04.49:705][712]LogContentValidation: Enabled validators:
+[2025.11.23-00.04.49:705][712]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.04.49:705][712]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.04.49:705][712]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.04.49:705][712]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.04.49:705][712]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.04.49:705][712]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.04.49:705][712]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.23-00.05.03:947][399]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-00.05.03:957][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-00.05.03:957][399]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.05.03:959][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001990s)
+[2025.11.23-00.05.03:960][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.002019s)
+[2025.11.23-00.05.03:981][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-00.05.03:999][399]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-00.05.04:001][399]LogPlayLevel: PIE: World Init took: (0.001602s)
+[2025.11.23-00.05.04:002][399]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.11.23-00.05.04:002][399]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-00.05.04:002][399]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-00.05.04:002][399]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-00.05.04:002][399]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-00.05.04:002][399]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-00.05.04:002][399]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-00.05.04:002][399]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-00.05.04:002][399]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-00.05.04:002][399]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-00.05.04:002][399]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-00.05.04:002][399]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-00.05.04:005][399]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-00.05.04:022][399]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-00.05.04:023][399]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-00.05.04:023][399]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-00.05.04:023][399]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-00.05.04:023][399]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.11.23-00.05.04:023][399]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.11.23-00.05.04:025][399]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.11.23-00.05.04:025][399]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.11.23-00.05.04:025][399]LogInit: FAudioDevice initialized with ID 19.
+[2025.11.23-00.05.04:025][399]LogAudio: Display: Audio Device (ID: 19) registered with world 'BuildLevel'.
+[2025.11.23-00.05.04:025][399]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.11.23-00.05.04:029][399]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-00.05.04:030][399]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-18.05.04
+[2025.11.23-00.05.04:030][399]LogWorld: Bringing up level for play took: 0.000607
+[2025.11.23-00.05.04:032][399]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.11.23-00.05.04:033][399]PIE: Server logged in
+[2025.11.23-00.05.04:035][399]PIE: Play in editor total start time 0.081 seconds.
+[2025.11.23-00.05.04:036][399]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.05.04:036][399]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.05.04:036][399]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.05.04:036][399]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.05.04:092][399]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-00.05.21:116][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.05.21:116][430]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.05.21:116][430]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-00.05.21:116][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.05.21:118][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-00.05.21:123][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.05.21:145][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.05.21:145][430]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.11.23-00.05.21:145][430]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=4
+[2025.11.23-00.05.21:147][430]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=2
+[2025.11.23-00.05.21:153][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-00.05.21:288][431]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.11.23-00.05.50:310][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.05.50:362][497]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.23-00.05.50:362][497]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.23-00.05.50:362][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.23-00.05.50:364][497]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.05.50:364][497]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.05.50:373][497]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.23-00.05.50:374][497]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActor741F65B0445D7A780670D4ACEECC0DB0.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.23-00.05.50:382][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.216 ms (total: 1.86 sec)
+[2025.11.23-00.05.50:428][497]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.05.50:428][497]LogContentValidation: Enabled validators:
+[2025.11.23-00.05.50:428][497]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.05.50:428][497]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.05.50:428][497]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.05.50:428][497]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.05.50:428][497]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.05.50:428][497]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.05.50:428][497]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.23-00.05.51:636][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.23-00.05.52:720][637]LogSlate: Window 'Save Content' being destroyed
+[2025.11.23-00.05.52:737][637]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.05.52:840][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.11.23-00.05.52:854][637]LogSavePackage: Moving output files for package: /Game/BuildLevel
+[2025.11.23-00.05.52:854][637]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BuildLevel7179186A4F9106DD7968BDAD6EC33717.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BuildLevel.umap'
+[2025.11.23-00.05.52:864][637]LogFileHelpers: Saving map 'BuildLevel' took 0.066
+[2025.11.23-00.05.52:871][637]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.597 ms (total: 1.99 sec)
+[2025.11.23-00.05.52:943][637]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.05.52:943][637]LogContentValidation: Enabled validators:
+[2025.11.23-00.05.52:943][637]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.05.52:943][637]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.05.52:943][637]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.05.52:943][637]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.05.52:943][637]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.05.52:943][637]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.05.52:943][637]AssetCheck: /Game/BuildLevel Validating asset
+[2025.11.23-00.07.09:837][100]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.11.23-00.07.14:280][633]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug9169fb89-824f-42ad-b7e1-54b194064a19 ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\link.exe @C:\Users\scott\AppData\Local\Temp\F69B.tmp
+   Creating library C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Binaries\Win64\UnrealEditor-PhysicsPuzzleMaze.patch_7.lib and object C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Binaries\Win64\UnrealEditor-PhysicsPuzzleMaze.patch_7.exp
+Detoured run took 835ms
+[2025.11.23-00.07.14:554][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.23-00.07.15:036][638]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes unchanged, 1 function remapped
+[2025.11.23-00.07.15:036][638]LogLiveCoding: Display: Live coding succeeded
+[2025.11.23-00.10.14:095][943]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4302.591797
+[2025.11.23-00.10.14:219][958]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.23-00.10.14:219][958]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4302.707520, Update Interval: 307.989136
+[2025.11.23-00.12.39:899][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.11.23-00.12.40:827][625]LogSlate: Window 'Save Content' being destroyed
+[2025.11.23-00.12.40:836][625]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.12.40:891][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_TiltControls] ([1] browsable assets)...
+[2025.11.23-00.12.40:891][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_TiltControls]
+[2025.11.23-00.12.40:891][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_TiltControls" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset" SILENT=true
+[2025.11.23-00.12.40:901][625]LogSavePackage: Moving output files for package: /Game/Input/IMC_TiltControls
+[2025.11.23-00.12.40:902][625]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/IMC_TiltControlsDDFD623044C930C21D0F66ABB052B02A.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/Input/IMC_TiltControls.uasset'
+[2025.11.23-00.12.40:909][625]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.706 ms (total: 2.06 sec)
+[2025.11.23-00.12.40:958][625]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.12.40:958][625]LogContentValidation: Enabled validators:
+[2025.11.23-00.12.40:958][625]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.12.40:958][625]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.12.40:958][625]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.12.40:958][625]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.12.40:958][625]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.12.40:958][625]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.12.40:958][625]AssetCheck: /Game/Input/IMC_TiltControls Validating asset
+[2025.11.23-00.12.40:958][625]AssetCheck: Error: [AssetLog] C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Content\Input\IMC_TiltControls.uasset: There cannot be a null Input Trigger on a key mapping
+[2025.11.23-00.12.40:958][625]AssetCheck: Error: [AssetLog] C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Content\Input\IMC_TiltControls.uasset: There cannot be a null Input Trigger on a key mapping
+[2025.11.23-00.12.40:958][625]AssetCheck: Error: [AssetLog] C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Content\Input\IMC_TiltControls.uasset: There cannot be a null Input Trigger on a key mapping
+[2025.11.23-00.12.40:958][625]AssetCheck: Error: [AssetLog] C:\Users\scott\Desktop\GameDevProjects\physics-puzzle\PhysicsPuzzleMaze\Content\Input\IMC_TiltControls.uasset: There cannot be a null Input Trigger on a key mapping
+[2025.11.23-00.12.45:574][115]LogSlate: Window 'Message Log' being destroyed
+[2025.11.23-00.12.45:579][115]LogSlate: Window 'Message Log' being destroyed
+[2025.11.23-00.12.48:646][475]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-00.12.48:653][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-00.12.48:653][475]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.12.48:656][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001925s)
+[2025.11.23-00.12.48:656][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001960s)
+[2025.11.23-00.12.48:708][475]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.11.23-00.12.48:719][475]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-00.12.48:720][475]LogPlayLevel: PIE: World Init took: (0.001663s)
+[2025.11.23-00.12.48:721][475]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.11.23-00.12.48:721][475]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-00.12.48:721][475]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-00.12.48:721][475]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-00.12.48:721][475]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-00.12.48:721][475]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-00.12.48:721][475]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-00.12.48:721][475]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-00.12.48:721][475]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-00.12.48:721][475]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-00.12.48:721][475]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-00.12.48:721][475]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-00.12.48:724][475]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-00.12.48:743][475]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-00.12.48:743][475]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-00.12.48:743][475]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-00.12.48:743][475]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-00.12.48:744][475]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.11.23-00.12.48:744][475]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.11.23-00.12.48:746][475]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.11.23-00.12.48:746][475]LogInit: FAudioDevice initialized with ID 20.
+[2025.11.23-00.12.48:746][475]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.11.23-00.12.48:746][475]LogAudio: Display: Audio Device (ID: 20) registered with world 'BuildLevel'.
+[2025.11.23-00.12.48:746][475]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.11.23-00.12.48:750][475]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-00.12.48:751][475]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-18.12.48
+[2025.11.23-00.12.48:751][475]LogWorld: Bringing up level for play took: 0.000655
+[2025.11.23-00.12.48:753][475]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.11.23-00.12.48:754][475]PIE: Server logged in
+[2025.11.23-00.12.48:756][475]PIE: Play in editor total start time 0.103 seconds.
+[2025.11.23-00.12.48:757][475]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.12.48:757][475]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.12.48:757][475]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.12.48:757][475]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.12.48:815][475]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-00.13.02:935][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.13.02:935][142]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.13.02:936][142]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-00.13.02:936][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.13.02:938][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-00.13.02:943][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.13.02:964][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.13.02:966][142]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.11.23-00.13.02:966][142]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=4
+[2025.11.23-00.13.02:967][142]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=2
+[2025.11.23-00.13.02:974][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.11.23-00.13.03:112][143]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.11.23-00.16.20:790][ 79]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4669.290527
+[2025.11.23-00.16.21:790][ 82]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.23-00.16.21:790][ 82]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4669.957031, Update Interval: 327.816406
+[2025.11.23-00.17.36:425][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.11.23-00.17.36:956][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.17.37:006][974]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GM_PlatformGame] ([2] browsable assets)...
+[2025.11.23-00.17.37:006][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/GM_PlatformGame]
+[2025.11.23-00.17.37:006][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GM_PlatformGame" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset" SILENT=true
+[2025.11.23-00.17.37:017][974]LogSavePackage: Moving output files for package: /Game/GM_PlatformGame
+[2025.11.23-00.17.37:017][974]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/GM_PlatformGameBEC3DB794760A08428A4F9B593B1C3FD.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset'
+[2025.11.23-00.17.37:030][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.227 ms (total: 2.14 sec)
+[2025.11.23-00.17.37:106][974]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.17.37:107][974]LogContentValidation: Enabled validators:
+[2025.11.23-00.17.37:107][974]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.17.37:107][974]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.17.37:107][974]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.17.37:107][974]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.17.37:107][974]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.17.37:107][974]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.17.37:107][974]AssetCheck: /Game/GM_PlatformGame Validating asset
+[2025.11.23-00.17.38:676][156]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-00.17.38:683][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-00.17.38:709][156]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.17.38:711][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001859s)
+[2025.11.23-00.17.38:711][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001903s)
+[2025.11.23-00.17.38:732][156]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.23-00.17.38:736][156]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-00.17.38:737][156]LogPlayLevel: PIE: World Init took: (0.001552s)
+[2025.11.23-00.17.38:738][156]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.11.23-00.17.38:738][156]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-00.17.38:738][156]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-00.17.38:738][156]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-00.17.38:738][156]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-00.17.38:738][156]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-00.17.38:738][156]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-00.17.38:738][156]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-00.17.38:738][156]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-00.17.38:738][156]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-00.17.38:738][156]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-00.17.38:738][156]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-00.17.38:740][156]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-00.17.38:758][156]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-00.17.38:758][156]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-00.17.38:758][156]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-00.17.38:758][156]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-00.17.38:758][156]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.11.23-00.17.38:758][156]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.11.23-00.17.38:761][156]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.11.23-00.17.38:761][156]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.11.23-00.17.38:761][156]LogInit: FAudioDevice initialized with ID 21.
+[2025.11.23-00.17.38:761][156]LogAudio: Display: Audio Device (ID: 21) registered with world 'BuildLevel'.
+[2025.11.23-00.17.38:761][156]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.11.23-00.17.38:765][156]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-00.17.38:766][156]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-18.17.38
+[2025.11.23-00.17.38:766][156]LogWorld: Bringing up level for play took: 0.000639
+[2025.11.23-00.17.38:768][156]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.11.23-00.17.38:771][156]PIE: Server logged in
+[2025.11.23-00.17.38:772][156]PIE: Play in editor total start time 0.089 seconds.
+[2025.11.23-00.17.38:773][156]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.17.38:773][156]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.17.38:773][156]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.17.38:773][156]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.17.38:828][157]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-00.18.03:149][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.18.03:149][977]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.18.03:149][977]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-00.18.03:149][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.18.03:153][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-00.18.03:158][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.18.03:179][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.18.03:179][977]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.11.23-00.18.03:179][977]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=4
+[2025.11.23-00.18.03:181][977]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=2
+[2025.11.23-00.18.03:187][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.23-00.18.03:249][979]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.11.23-00.22.28:294][717]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5036.781250
+[2025.11.23-00.22.29:294][720]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.23-00.22.29:294][720]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5037.448242, Update Interval: 335.908081
+[2025.11.23-00.24.50:073][270]LogSlate: Window 'C++ Header Preview' being destroyed
+[2025.11.23-00.24.50:078][270]LogSlate: Window 'C++ Header Preview' being destroyed
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 1 (upload completely sent off: 447 bytes)
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 2 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 3 (shutting down connection #22)
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 5 (necessary data rewind was not possible)
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 6 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D7223FD-48C3-FC0D-7E8F-57AC955A2D84%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 8 (necessary data rewind was not possible)
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 9 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 10 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2025.11.23-00.25.32:559][ 96]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 11 (IPv6: (none))
+[2025.11.23-00.25.32:559][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 12 (IPv4: 3.224.90.68, 44.214.199.136, 52.70.4.155, 3.210.140.195, 52.45.128.185, 34.238.144.204, 3.94.157.94, 44.217.117.100)
+[2025.11.23-00.25.32:559][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 13 (  Trying 3.224.90.68:443...)
+[2025.11.23-00.25.32:559][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 14 (SSL reusing session)
+[2025.11.23-00.25.32:559][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 15 (ALPN: curl offers http/1.1)
+[2025.11.23-00.25.32:559][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.23-00.25.32:559][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.23-00.25.32:559][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.23-00.25.32:559][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.23-00.25.32:559][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 26 (Server certificate:)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 28 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 29 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 33 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 34 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 35 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 36 (Connected to datarouter.ol.epicgames.com (3.224.90.68) port 443)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 37 (using HTTP/1.x)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 38 (client read function EOF fail, only 0/447 of needed bytes read)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900: libcurl info message cache 39 (closing connection #23)
+[2025.11.23-00.25.32:560][ 97]LogHttp: Warning: 000002AFCB8BD900 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D7223FD-48C3-FC0D-7E8F-57AC955A2D84%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.33s
+[2025.11.23-00.25.38:711][601]LogSlate: Window 'Create New Blueprint' being destroyed
+[2025.11.23-00.25.55:752][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.11.23-00.25.56:359][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.25.56:406][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GM_PlatformGame] ([2] browsable assets)...
+[2025.11.23-00.25.56:406][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/GM_PlatformGame]
+[2025.11.23-00.25.56:406][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GM_PlatformGame" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset" SILENT=true
+[2025.11.23-00.25.56:418][656]LogSavePackage: Moving output files for package: /Game/GM_PlatformGame
+[2025.11.23-00.25.56:418][656]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/GM_PlatformGameCF1051A44BE16039BBAF55B3D5A866E1.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset'
+[2025.11.23-00.25.56:433][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.084 ms (total: 2.21 sec)
+[2025.11.23-00.25.56:508][656]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.25.56:508][656]LogContentValidation: Enabled validators:
+[2025.11.23-00.25.56:508][656]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.25.56:508][656]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.25.56:508][656]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.25.56:508][656]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.25.56:508][656]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.25.56:508][656]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.25.56:508][656]AssetCheck: /Game/GM_PlatformGame Validating asset
+[2025.11.23-00.25.57:920][820]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-00.25.57:927][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-00.25.57:959][820]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.25.57:961][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001834s)
+[2025.11.23-00.25.57:961][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001882s)
+[2025.11.23-00.25.57:983][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.11.23-00.25.57:988][820]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-00.25.57:989][820]LogPlayLevel: PIE: World Init took: (0.001882s)
+[2025.11.23-00.25.57:990][820]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.11.23-00.25.57:990][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-00.25.57:990][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-00.25.57:990][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-00.25.57:990][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-00.25.57:990][820]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-00.25.57:990][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-00.25.57:990][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-00.25.57:990][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-00.25.57:990][820]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-00.25.57:990][820]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-00.25.57:990][820]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-00.25.57:992][820]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-00.25.58:016][820]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-00.25.58:016][820]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-00.25.58:016][820]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-00.25.58:016][820]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-00.25.58:016][820]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.11.23-00.25.58:016][820]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2025.11.23-00.25.58:019][820]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.11.23-00.25.58:019][820]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.11.23-00.25.58:019][820]LogInit: FAudioDevice initialized with ID 22.
+[2025.11.23-00.25.58:019][820]LogAudio: Display: Audio Device (ID: 22) registered with world 'BuildLevel'.
+[2025.11.23-00.25.58:019][820]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.11.23-00.25.58:023][820]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-00.25.58:024][820]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-18.25.58
+[2025.11.23-00.25.58:024][820]LogWorld: Bringing up level for play took: 0.000654
+[2025.11.23-00.25.58:025][820]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.11.23-00.25.58:026][820]PIE: Server logged in
+[2025.11.23-00.25.58:028][820]PIE: Play in editor total start time 0.102 seconds.
+[2025.11.23-00.25.58:031][820]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.25.58:031][820]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.25.58:031][820]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.25.58:031][820]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.25.58:101][820]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-00.26.18:868][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.26.18:870][298]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.26.18:870][298]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-00.26.18:870][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.26.18:872][298]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-00.26.18:878][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.26.18:899][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.26.18:899][298]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.11.23-00.26.18:899][298]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=4
+[2025.11.23-00.26.18:901][298]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=2
+[2025.11.23-00.26.18:907][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.23-00.26.19:037][299]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.11.23-00.26.38:875][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.11.23-00.26.39:475][687]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.26.39:532][687]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GM_PlatformGame] ([2] browsable assets)...
+[2025.11.23-00.26.39:533][687]OBJ SavePackage: Finished generating thumbnails for package [/Game/GM_PlatformGame]
+[2025.11.23-00.26.39:533][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GM_PlatformGame" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset" SILENT=true
+[2025.11.23-00.26.39:544][687]LogSavePackage: Moving output files for package: /Game/GM_PlatformGame
+[2025.11.23-00.26.39:544][687]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/GM_PlatformGameD598785A4AC0567D097114830193007B.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/GM_PlatformGame.uasset'
+[2025.11.23-00.26.39:556][687]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.696 ms (total: 2.29 sec)
+[2025.11.23-00.26.39:633][687]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.26.39:633][687]LogContentValidation: Enabled validators:
+[2025.11.23-00.26.39:633][687]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.26.39:633][687]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.26.39:633][687]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.26.39:633][687]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.26.39:633][687]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.26.39:633][687]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.26.39:633][687]AssetCheck: /Game/GM_PlatformGame Validating asset
+[2025.11.23-00.26.40:967][840]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-00.26.40:975][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-00.26.41:008][840]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.26.41:011][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001836s)
+[2025.11.23-00.26.41:011][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001880s)
+[2025.11.23-00.26.41:031][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.23-00.26.41:035][840]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-00.26.41:037][840]LogPlayLevel: PIE: World Init took: (0.001539s)
+[2025.11.23-00.26.41:037][840]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.11.23-00.26.41:037][840]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-00.26.41:037][840]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-00.26.41:037][840]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-00.26.41:037][840]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-00.26.41:037][840]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-00.26.41:037][840]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-00.26.41:037][840]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-00.26.41:037][840]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-00.26.41:037][840]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-00.26.41:037][840]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-00.26.41:037][840]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-00.26.41:040][840]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-00.26.41:057][840]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-00.26.41:057][840]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-00.26.41:057][840]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-00.26.41:057][840]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-00.26.41:057][840]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.11.23-00.26.41:057][840]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2025.11.23-00.26.41:061][840]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.11.23-00.26.41:061][840]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2025.11.23-00.26.41:061][840]LogInit: FAudioDevice initialized with ID 23.
+[2025.11.23-00.26.41:061][840]LogAudio: Display: Audio Device (ID: 23) registered with world 'BuildLevel'.
+[2025.11.23-00.26.41:061][840]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.11.23-00.26.41:065][840]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-00.26.41:065][840]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-18.26.41
+[2025.11.23-00.26.41:065][840]LogWorld: Bringing up level for play took: 0.000620
+[2025.11.23-00.26.41:067][840]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.11.23-00.26.41:069][840]PIE: Server logged in
+[2025.11.23-00.26.41:070][840]PIE: Play in editor total start time 0.096 seconds.
+[2025.11.23-00.26.41:072][840]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.26.41:072][840]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.26.41:072][840]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.26.41:072][840]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.26.41:127][840]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-00.26.51:669][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.26.51:669][ 94]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.26.51:670][ 94]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-00.26.51:670][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.26.51:672][ 94]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-00.26.51:677][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.26.51:699][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.26.51:699][ 94]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.11.23-00.26.51:699][ 94]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2025.11.23-00.26.51:701][ 94]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2025.11.23-00.26.51:707][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.23-00.26.51:845][ 95]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.11.23-00.27.21:812][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.11.23-00.27.23:168][678]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.23-00.27.23:224][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_BallActor] ([2] browsable assets)...
+[2025.11.23-00.27.23:229][678]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_BallActor.BP_BallActor]
+[2025.11.23-00.27.23:229][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BallActor]
+[2025.11.23-00.27.23:229][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BallActor" FILE="../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset" SILENT=true
+[2025.11.23-00.27.23:233][678]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.27.23:233][678]LogWorldPartition: Can't find class descriptor '/Game/BP_BallActor.BP_BallActor_C' for saving '/Game/BP_BallActor.BP_BallActor_C'
+[2025.11.23-00.27.23:242][678]LogSavePackage: Moving output files for package: /Game/BP_BallActor
+[2025.11.23-00.27.23:243][678]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Saved/BP_BallActor6565D2AC47B9EF8837855F9468A1552C.tmp' to '../../../../../../Users/scott/Desktop/GameDevProjects/physics-puzzle/PhysicsPuzzleMaze/Content/BP_BallActor.uasset'
+[2025.11.23-00.27.23:249][678]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.011 ms (total: 2.37 sec)
+[2025.11.23-00.27.23:308][678]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.23-00.27.23:308][678]LogContentValidation: Enabled validators:
+[2025.11.23-00.27.23:308][678]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.23-00.27.23:308][678]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.23-00.27.23:308][678]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.23-00.27.23:308][678]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.23-00.27.23:308][678]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.23-00.27.23:308][678]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.23-00.27.23:308][678]AssetCheck: /Game/BP_BallActor Validating asset
+[2025.11.23-00.27.25:679][947]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.23-00.27.25:687][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.23-00.27.25:729][947]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.27.25:732][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001773s)
+[2025.11.23-00.27.25:732][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuildLevel.BuildLevel to /Game/UEDPIE_0_BuildLevel.BuildLevel (0.001816s)
+[2025.11.23-00.27.25:754][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.23-00.27.25:768][947]LogChaosDD: Creating Chaos Debug Draw Scene for world BuildLevel
+[2025.11.23-00.27.25:770][947]LogPlayLevel: PIE: World Init took: (0.001673s)
+[2025.11.23-00.27.25:771][947]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.11.23-00.27.25:771][947]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.23-00.27.25:771][947]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.23-00.27.25:771][947]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.23-00.27.25:771][947]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.23-00.27.25:771][947]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.23-00.27.25:771][947]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.23-00.27.25:771][947]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.23-00.27.25:771][947]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.23-00.27.25:771][947]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.23-00.27.25:771][947]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.23-00.27.25:771][947]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.23-00.27.25:773][947]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.23-00.27.25:791][947]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.23-00.27.25:791][947]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.23-00.27.25:791][947]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.23-00.27.25:791][947]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.23-00.27.25:792][947]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.11.23-00.27.25:792][947]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2025.11.23-00.27.25:794][947]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.11.23-00.27.25:794][947]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2025.11.23-00.27.25:794][947]LogInit: FAudioDevice initialized with ID 24.
+[2025.11.23-00.27.25:794][947]LogAudio: Display: Audio Device (ID: 24) registered with world 'BuildLevel'.
+[2025.11.23-00.27.25:794][947]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.11.23-00.27.25:798][947]LogLoad: Game class is 'GM_PlatformGame_C'
+[2025.11.23-00.27.25:799][947]LogWorld: Bringing World /Game/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2025.11.22-18.27.25
+[2025.11.23-00.27.25:799][947]LogWorld: Bringing up level for play took: 0.000602
+[2025.11.23-00.27.25:801][947]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.11.23-00.27.25:803][947]PIE: Server logged in
+[2025.11.23-00.27.25:805][947]PIE: Play in editor total start time 0.118 seconds.
+[2025.11.23-00.27.25:807][947]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.27.25:807][947]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltForward'
+[2025.11.23-00.27.25:807][947]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.27.25:807][947]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_TiltRight'
+[2025.11.23-00.27.25:861][947]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.23-00.28.22:502][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.28.22:502][731]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BuildLevel
+[2025.11.23-00.28.22:502][731]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.23-00.28.22:502][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.28.22:505][731]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.23-00.28.22:510][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.23-00.28.22:530][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.23-00.28.22:530][731]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.11.23-00.28.22:530][731]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2025.11.23-00.28.22:532][731]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2025.11.23-00.28.22:538][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.23-00.28.22:669][732]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.11.23-00.28.35:449][247]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5403.921875
+[2025.11.23-00.28.35:566][261]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.23-00.28.35:566][261]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5404.030273, Update Interval: 311.268646
