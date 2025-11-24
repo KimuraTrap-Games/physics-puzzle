@@ -10,26 +10,22 @@ ABallActor::ABallActor()
 
     AutoPossessPlayer = EAutoReceiveInput::Player0;
 
-    // Root Component
-    USceneComponent* SceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
-    RootComponent = SceneRoot;
-
-    // Ball Mesh
+    // Ball Mesh becomes root
     BallMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BallMesh"));
-    BallMesh->SetupAttachment(RootComponent);
+    RootComponent = BallMesh;
     BallMesh->SetSimulatePhysics(true);
     BallMesh->SetEnableGravity(true);
     BallMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 
-    // Spring Arm
+    // Spring Arm attached to BallMesh root
     SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
-    SpringArm->SetupAttachment(RootComponent);
-    SpringArm->TargetArmLength = 1500.0f;             // Height above the ball
-    SpringArm->SetRelativeRotation(FRotator(-90.0f, 0.0f, 0.0f)); // Straight down
-    SpringArm->bDoCollisionTest = false;             // Ignore collisions
-    SpringArm->bEnableCameraLag = false;             // Optional: disable lag for top-down
+    SpringArm->SetupAttachment(BallMesh);
+    SpringArm->TargetArmLength = 2000.0f;
+    SpringArm->SetRelativeRotation(FRotator(-60.0f, 0.0f, 0.0f));
+    SpringArm->bDoCollisionTest = false;
+    SpringArm->bEnableCameraLag = false;
 
-    // Camera
+    // Camera attached to spring arm
     Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
     Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
     Camera->bUsePawnControlRotation = false;
@@ -41,7 +37,7 @@ void ABallActor::BeginPlay()
     Super::BeginPlay();
 }
 
-// Called every frame
+// Tick no longer needs to move spring arm
 void ABallActor::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);

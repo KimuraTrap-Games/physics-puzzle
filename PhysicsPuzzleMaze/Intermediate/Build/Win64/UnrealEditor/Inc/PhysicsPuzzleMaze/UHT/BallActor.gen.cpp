@@ -95,10 +95,21 @@ struct Z_Construct_UClass_ABallActor_Statics
 		{ "ToolTip", "Camera" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RollForce_MetaData[] = {
+		{ "Category", "Ball" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Speed multiplier\n" },
+#endif
+		{ "ModuleRelativePath", "BallActor.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Speed multiplier" },
+#endif
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_BallMesh;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Camera;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_RollForce;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -109,10 +120,12 @@ struct Z_Construct_UClass_ABallActor_Statics
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABallActor_Statics::NewProp_BallMesh = { "BallMesh", nullptr, (EPropertyFlags)0x00100000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABallActor, BallMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BallMesh_MetaData), NewProp_BallMesh_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABallActor_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00100000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABallActor, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpringArm_MetaData), NewProp_SpringArm_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABallActor_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00100000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABallActor, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Camera_MetaData), NewProp_Camera_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABallActor_Statics::NewProp_RollForce = { "RollForce", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABallActor, RollForce), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RollForce_MetaData), NewProp_RollForce_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABallActor_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallActor_Statics::NewProp_BallMesh,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallActor_Statics::NewProp_SpringArm,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallActor_Statics::NewProp_Camera,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallActor_Statics::NewProp_RollForce,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ABallActor_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ABallActor_Statics::DependentSingletons[])() = {
@@ -151,10 +164,10 @@ ABallActor::~ABallActor() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_GameDevProjects_physics_puzzle_PhysicsPuzzleMaze_Source_PhysicsPuzzleMaze_BallActor_h__Script_PhysicsPuzzleMaze_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABallActor, ABallActor::StaticClass, TEXT("ABallActor"), &Z_Registration_Info_UClass_ABallActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABallActor), 2732910103U) },
+		{ Z_Construct_UClass_ABallActor, ABallActor::StaticClass, TEXT("ABallActor"), &Z_Registration_Info_UClass_ABallActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABallActor), 2515914050U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GameDevProjects_physics_puzzle_PhysicsPuzzleMaze_Source_PhysicsPuzzleMaze_BallActor_h__Script_PhysicsPuzzleMaze_61059496(TEXT("/Script/PhysicsPuzzleMaze"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_GameDevProjects_physics_puzzle_PhysicsPuzzleMaze_Source_PhysicsPuzzleMaze_BallActor_h__Script_PhysicsPuzzleMaze_2336754092(TEXT("/Script/PhysicsPuzzleMaze"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_GameDevProjects_physics_puzzle_PhysicsPuzzleMaze_Source_PhysicsPuzzleMaze_BallActor_h__Script_PhysicsPuzzleMaze_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_GameDevProjects_physics_puzzle_PhysicsPuzzleMaze_Source_PhysicsPuzzleMaze_BallActor_h__Script_PhysicsPuzzleMaze_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

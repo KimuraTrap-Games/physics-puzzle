@@ -252,6 +252,7 @@
     <None Include="..\..\PhysicsPuzzleMaze.uproject"/>
     <None Include="..\..\Source\PhysicsPuzzleMaze.Target.cs"/>
     <None Include="..\..\Source\PhysicsPuzzleMazeEditor.Target.cs"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>

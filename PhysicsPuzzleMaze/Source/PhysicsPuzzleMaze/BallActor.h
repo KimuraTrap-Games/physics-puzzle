@@ -32,4 +32,14 @@ public:
     // Camera
     UPROPERTY(VisibleAnywhere)
     class UCameraComponent* Camera;
+
+public:
+    // Control ball movement
+    void MoveForward(float Value);
+    void MoveRight(float Value);
+
+    // Speed multiplier
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ball")
+    float RollForce = 200000.0f;
+
 };
